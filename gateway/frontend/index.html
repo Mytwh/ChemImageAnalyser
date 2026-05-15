@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>化学反应图像解析系统</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js">
+    </script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg: #f3f4f6;
+            --border: #e5e7eb;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background: var(--bg);
+            overflow: hidden;
+        }
+
+        .navbar {
+            background: #fff;
+            padding: 12px 20px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        .navbar h2 {
+            margin: 0;
+            font-size: 18px;
+            color: #1f2937;
+        }
+        .upload-btn {
+            background: var(--primary);
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .upload-btn:hover {
+            background: #1d4ed8;
+        }
+        .status {
+            font-size: 12px;
+            margin-left: 10px;
+            padding: 4px 12px;
+            border-radius: 12px;
+            background: #f3f4f6;
+            color: #6b7280;
+        }
+        .status.ready {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        .status.error {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .main-container {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .pdf-container {
+            flex: 2;
+            background: #cbd5e1;
+            overflow: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+            gap: 30px;
+        }
+
+        .page-wrapper {
+            position: relative;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transform-origin: top center;
+            flex-shrink: 0;
+            transition: margin-bottom 0.15s ease;
+        }
+
+        .page-label {
+            position: absolute;
+            top: -28px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #1f2937;
+            color: white;
+            padding: 4px 16px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+            z-index: 10;
+            pointer-events: none;
+            white-space: nowrap;
+            letter-spacing: 0.5px;
+        }
+
+        .pdf-canvas {
+            display: block;
+        }
+
+        .bbox-overlay {
+            position: absolute;
+            border: 2px solid;
+            cursor: pointer;
+            pointer-events: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+        .bbox-overlay:hover {
+            z-index: 100;
+            box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+        }
+        .bbox-text {
+            border-color: #3b82f6;
+            background: rgba(59, 130, 246, 0.08);
+        }
+        .bbox-text:hover {
+            background: rgba(59, 130, 246, 0.2);
+        }
+        .bbox-image {
+            border-color: #10b981;
+            background: rgba(16, 185, 129, 0.12);
+        }
+        .bbox-image:hover {
+            background: rgba(16, 185, 129, 0.25);
+        }
+        .bbox-image.analyzing {
+            background: rgba(245, 158, 11, 0.3);
+            border-color: #f59e0b;
+            cursor: wait;
+        }
+
+        .bbox-hint {
+            display: none;
+            position: absolute;
+            bottom: 4px;
+            right: 4px;
+            font-size: 11px;
+            padding: 3px 6px;
+            border-radius: 4px;
+            background: #1f2937;
+            color: white;
+            font-weight: bold;
+        }
+        .bbox-overlay:hover .bbox-hint {
+            display: block;
+        }
+
+        .chat-sidebar {
+            flex: 1;
+            background: white;
+            border-left: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            min-width: 380px;
+            max-width: 500px;
+            height: 100%;
+            overflow: hidden;
+        }
+        .chat-header {
+            padding: 15px;
+            border-bottom: 1px solid var(--border);
+            font-weight: bold;
+            background: #f8fafc;
+            flex-shrink: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .chat-container {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            overflow: hidden;
+        }
+        .chat-messages {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .message {
+            max-width: 95%;
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 13px;
+            line-height: 1.5;
+            word-wrap: break-word;
+        }
+        .user-msg {
+            background: var(--primary);
+            color: white;
+            align-self: flex-end;
+            border-bottom-right-radius: 0;
+        }
+        .ai-msg {
+            background: #f3f4f6;
+            color: #1f2937;
+            align-self: flex-start;
+            border-bottom-left-radius: 0;
+            width: 92%;
+        }
+        .ai-msg.error {
+            background: #fee2e2;
+            color: #991b1b;
+            border: 1px solid #fecaca;
+        }
+        .ai-msg.loading {
+            background: #dbeafe;
+            color: #1e40af;
+            font-style: italic;
+        }
+        .ai-msg.warning {
+            background: #fef3c7;
+            color: #92400e;
+            border-left: 4px solid #f59e0b;
+        }
+        .ai-msg.molecule {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        .ai-msg.reaction {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        pre {
+            background-color: #1e293b;
+            color: #e2e8f0;
+            padding: 12px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 12px;
+            margin: 8px 0;
+            line-height: 1.4;
+        }
+        code {
+            font-family: ui-monospace, monospace;
+            font-size: 12px;
+        }
+
+        .target-preview {
+            margin-bottom: 10px;
+            border: 2px solid #10b981;
+            border-radius: 6px;
+            overflow: hidden;
+            display: none;
+        }
+        .target-preview.active {
+            display: block;
+        }
+        .target-preview img {
+            width: 100%;
+            display: block;
+            max-height: 150px;
+            object-fit: contain;
+            background: #f0fdf4;
+            padding: 10px;
+        }
+        .target-preview .info {
+            padding: 8px;
+            background: #d1fae5;
+            font-size: 12px;
+            color: #065f46;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chat-input {
+            padding: 15px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            gap: 10px;
+            flex-shrink: 0;
+            background: white;
+        }
+        .chat-input input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            outline: none;
+        }
+        .chat-input button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0 20px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .chat-input button:disabled {
+            background: #9ca3af;
+            cursor: not-allowed;
+        }
+
+        .zoom-controls {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            display: flex;
+            gap: 8px;
+            z-index: 1000;
+        }
+        .zoom-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: none;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .page-nav {
+            position: fixed;
+            bottom: 20px;
+            right: 420px;
+            display: flex;
+            gap: 6px;
+            z-index: 1000;
+            align-items: center;
+            background: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+            font-size: 13px;
+        }
+        .page-nav button {
+            background: #f3f4f6;
+            border: none;
+            padding: 4px 10px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .page-nav button:hover {
+            background: #e5e7eb;
+        }
+        .page-nav span {
+            color: #374151;
+            font-weight: 500;
+            min-width: 60px;
+            text-align: center;
+        }
+        .page-nav input {
+            width: 40px;
+            text-align: center;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            padding: 3px;
+            font-size: 12px;
+        }
+
+        .debug-info {
+            position: fixed;
+            top: 60px;
+            left: 20px;
+            background: #1f2937;
+            color: #10b981;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-family: monospace;
+            z-index: 999;
+            max-width: 400px;
+            max-height: 300px;
+            overflow: auto;
+            display: none;
+            white-space: pre-wrap;
+        }
+        .debug-info.active {
+            display: block;
+        }
+
+        .placeholder {
+            text-align: center;
+            color: #6b7280;
+            padding: 60px;
+        }
+        .error-box {
+            background: #fee2e2;
+            border: 1px solid #ef4444;
+            color: #991b1b;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px;
+            max-width: 80%;
+        }
+        .loading-spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #3b82f6;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 8px;
+        }
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="debug-info" id="debugInfo"></div>
+
+    <div class="navbar">
+        <div style="display: flex; align-items: center;">
+            <h2>化学反应图像解析系统</h2>
+            <span class="status ready" id="systemStatus">● 系统就绪</span>
+        </div>
+        <div>
+            <input type="file" id="fileInput" style="display: none;" accept="application/pdf">
+            <button class="upload-btn" onclick="document.getElementById('fileInput').click()">📄 上传 PDF</button>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="pdf-container" id="pdfContainer">
+            <div class="placeholder">
+                <div style="font-size: 48px; margin-bottom: 20px;">📄</div>
+                <div>请上传 PDF 文件开始解析</div>
+                <small style="color: #9ca3af">支持分子结构识别、反应方程式提取</small>
+            </div>
+        </div>
+
+        <div class="chat-sidebar">
+            <div class="chat-header">
+                <span>图文解析助手 <small style="font-weight: normal; color: #6b7280;"></small></span>
+                <button onclick="clearChat()" style="font-size: 12px; background: none; border: none; color: #6b7280; cursor: pointer;">清空</button>
+            </div>
+            <div class="chat-container">
+                <div class="chat-messages" id="chatMessages">
+                    <div class="target-preview" id="targetPreview">
+                        <img id="previewImg" src="" alt="">
+                        <div class="info">
+                            <span>✅ 已锁定目标</span>
+                            <span style="cursor: pointer;" onclick="clearTarget()">×</span>
+                        </div>
+                    </div>
+                    <div class="message ai-msg">
+                        欢迎使用！上传 PDF 后，我将自动检测页面中的化学结构。<br><br>
+                        <strong style="color: #10b981;">🟢 绿色框</strong> = 图片（可点击识别）<br>
+                        <strong style="color: #3b82f6;">🔵 蓝色框</strong> = 文本<br><br>
+                        <small>点击绿色框，系统将调用 DeepSeek 判断是分子结构还是反应式。</small>
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="userInput" placeholder="输入追问..." disabled>
+                    <button id="sendBtn" onclick="sendMessage()" disabled>发送</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="zoom-controls">
+        <button class="zoom-btn" onclick="zoomOut()">−</button>
+        <button class="zoom-btn" onclick="zoomIn()">+</button>
+        <button class="zoom-btn" onclick="resetZoom()">⟲</button>
+        <button class="zoom-btn" onclick="toggleDebug()" title="调试信息">🐛</button>
+    </div>
+
+    <div class="page-nav" id="pageNav" style="display:none;">
+        <button onclick="goToPrevPage()" title="上一页">◀</button>
+        <input type="number" id="pageNumInput" value="1" min="1" onchange="jumpToPage()" title="跳转到页码">
+        <span id="pageIndicator">/ 1</span>
+        <button onclick="goToNextPage()" title="下一页">▶</button>
+        <button onclick="scrollToTop()" title="回到顶部" style="font-size:11px;">⬆</button>
+    </div>
+
+    <script>
+        // ============ 调试日志系统 ============
+        function log(msg, type = 'info') {
+            console.log(`[${type}]`, msg);
+            const debugDiv = document.getElementById('debugInfo');
+            const time = new Date().toLocaleTimeString();
+            const color = type === 'error' ? '#ef4444' : type === 'warn' ? '#f59e0b' : '#10b981';
+            debugDiv.innerHTML +=
+                `<div style="color:${color}; margin-bottom:4px;">${time} [${type}] ${msg}</div>`;
+            debugDiv.scrollTop = debugDiv.scrollHeight;
+        }
+
+        function toggleDebug() {
+            document.getElementById('debugInfo').classList.toggle('active');
+        }
+
+        // ============ 全局状态 ============
+        let currentScale = 1.0;
+        let currentPdfData = null;
+        let totalPages = 0;
+        let pageWrappers = []; // 存储所有page-wrapper的引用及页面高度
+
+        const pdfContainer = document.getElementById('pdfContainer');
+        const chatMessages = document.getElementById('chatMessages');
+        const targetPreview = document.getElementById('targetPreview');
+        const previewImg = document.getElementById('previewImg');
+        const pageNav = document.getElementById('pageNav');
+        const pageNumInput = document.getElementById('pageNumInput');
+        const pageIndicator = document.getElementById('pageIndicator');
+
+        // ============ 缩放控制 ============
+        function zoomIn() {
+            currentScale = Math.min(currentScale + 0.1, 2.0);
+            applyZoom();
+        }
+
+        function zoomOut() {
+            currentScale = Math.max(currentScale - 0.1, 0.5);
+            applyZoom();
+        }
+
+        function resetZoom() {
+            currentScale = 1.0;
+            applyZoom();
+        }
+
+        function applyZoom() {
+            const wrappers = document.querySelectorAll('.page-wrapper');
+            wrappers.forEach(wrapper => {
+                wrapper.style.transform = `scale(${currentScale})`;
+                // 动态调整底部间距，补偿transform scale不改变布局占位的问题
+                const height = parseFloat(wrapper.dataset.pageHeight) || parseFloat(wrapper.style
+                    .height) || 842;
+                wrapper.style.marginBottom = (height * (currentScale - 1) + 30) + 'px';
+            });
+            // 更新页码导航中的缩放信息（可选）
+            updatePageNavAfterScroll();
+        }
+
+        // ============ 页面导航 ============
+        function updatePageNavVisibility() {
+            if (totalPages > 1 && currentPdfData) {
+                pageNav.style.display = 'flex';
+                pageIndicator.textContent = `/ ${totalPages}`;
+                pageNumInput.max = totalPages;
+            } else {
+                pageNav.style.display = 'none';
+            }
+        }
+
+        function updatePageNavAfterScroll() {
+            if (totalPages <= 1 || !currentPdfData) return;
+            const container = pdfContainer;
+            const scrollTop = container.scrollTop;
+            const containerHeight = container.clientHeight;
+            const wrappers = document.querySelectorAll('.page-wrapper');
+            if (wrappers.length === 0) return;
+
+            // 找到当前可见区域中最靠近顶部的页面
+            let closestPage = 1;
+            let minDistance = Infinity;
+            wrappers.forEach((wrapper, index) => {
+                const wrapperTop = wrapper.offsetTop;
+                const wrapperBottom = wrapperTop + wrapper.offsetHeight * currentScale;
+                const visibleCenter = scrollTop + containerHeight / 2;
+                // 判断wrapper是否在可视区域附近
+                const wrapperMid = wrapperTop + wrapper.offsetHeight * currentScale / 2;
+                const distance = Math.abs(wrapperMid - visibleCenter);
+                if (distance < minDistance) {
+                    minDistance = distance;
+                    closestPage = index + 1;
+                }
+            });
+            pageNumInput.value = closestPage;
+        }
+
+        function scrollToPage(pageNum) {
+            if (pageNum < 1 || pageNum > totalPages) return;
+            const wrappers = document.querySelectorAll('.page-wrapper');
+            if (wrappers.length >= pageNum) {
+                const target = wrappers[pageNum - 1];
+                // 滚动到目标页面的顶部，留一点余量
+                const offsetTop = target.offsetTop - 20;
+                pdfContainer.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+                pageNumInput.value = pageNum;
+            }
+        }
+
+        function goToPrevPage() {
+            const current = parseInt(pageNumInput.value) || 1;
+            scrollToPage(current - 1);
+        }
+
+        function goToNextPage() {
+            const current = parseInt(pageNumInput.value) || 1;
+            scrollToPage(current + 1);
+        }
+
+        function jumpToPage() {
+            const pageNum = parseInt(pageNumInput.value);
+            if (isNaN(pageNum) || pageNum < 1) {
+                pageNumInput.value = 1;
+                return;
+            }
+            if (pageNum > totalPages) {
+                pageNumInput.value = totalPages;
+            }
+            scrollToPage(parseInt(pageNumInput.value));
+        }
+
+        function scrollToTop() {
+            pdfContainer.scrollTo({ top: 0, behavior: 'smooth' });
+            pageNumInput.value = 1;
+        }
+
+        // 监听pdfContainer滚动以更新页码指示器
+        pdfContainer.addEventListener('scroll', function() {
+            if (totalPages > 1) {
+                updatePageNavAfterScroll();
+            }
+        });
+
+        // ============ 文件上传处理 ============
+        document.getElementById('fileInput').addEventListener('change', async function(e) {
+            if (e.target.files.length === 0) return;
+            const file = e.target.files[0];
+
+            if (!file.name.endsWith('.pdf')) {
+                alert('请上传 PDF 文件');
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            log(`开始上传: ${file.name}`);
+            pdfContainer.innerHTML =
+                '<div class="placeholder"><div class="loading-spinner"></div> 正在解析 PDF...</div>';
+            appendMessage(`正在解析 ${file.name}<br><small>MinerU 提取页面结构...</small>`, 'ai-msg loading');
+            document.getElementById('debugInfo').innerHTML = '';
+            totalPages = 0;
+            pageWrappers = [];
+            currentPdfData = null;
+            updatePageNavVisibility();
+
+            try {
+                const response = await fetch('/parse/pdf', { method: 'POST', body: formData });
+                log(`HTTP 状态: ${response.status}`);
+
+                const data = await response.json();
+
+                if (data.status === 'success') {
+                    currentPdfData = data;
+                    totalPages = data.page_count || (data.page_data?.pdf_info?.length || 0);
+                    log(`解析成功: ${totalPages} 页, ${data.images?.length || 0} 张图片`);
+                    appendMessage(
+                        `✅ PDF 解析完成！共 <strong>${totalPages}</strong> 页<br><small>DeepSeek 就绪，点击绿色框识别化学结构</small>`,
+                        'ai-msg');
+                    updatePageNavVisibility();
+                    pageNumInput.value = 1;
+                    await renderPDFWithBbox(data);
+                    enableInput();
+                } else {
+                    throw new Error(data.detail || '解析失败');
+                }
+            } catch (error) {
+                log(`错误: ${error.message}`, 'error');
+                appendMessage('❌ 解析失败: ' + error.message, 'ai-msg error');
+                pdfContainer.innerHTML = `<div class="error-box">错误: ${error.message}</div>`;
+                totalPages = 0;
+                updatePageNavVisibility();
+            }
+        });
+
+        // ============ 核心渲染函数（多页支持） ============
+        async function renderPDFWithBbox(data) {
+            log('开始渲染 PDF（多页模式）...');
+
+            if (!data.pdf_url) {
+                log('错误: 无 pdf_url', 'error');
+                pdfContainer.innerHTML = '<div class="error-box">未获取到 PDF 路径</div>';
+                totalPages = 0;
+                updatePageNavVisibility();
+                return;
+            }
+
+            const pdfInfoList = data.page_data?.pdf_info || [];
+            if (pdfInfoList.length === 0) {
+                log('错误: 无 page_info 数据', 'error');
+                pdfContainer.innerHTML = '<div class="error-box">未获取到页面结构信息</div>';
+                totalPages = 0;
+                updatePageNavVisibility();
+                return;
+            }
+
+            totalPages = pdfInfoList.length;
+            updatePageNavVisibility();
+            pageNumInput.value = 1;
+            pageWrappers = [];
+
+            pdfContainer.innerHTML = '';
+
+            let pdfDoc = null;
+            try {
+                pdfDoc = await pdfjsLib.getDocument(data.pdf_url).promise;
+                log(`PDF.js 加载成功，共 ${pdfDoc.numPages} 页`);
+            } catch (e) {
+                log(`PDF.js 加载失败: ${e.message}，将使用白色背景`, 'warn');
+            }
+
+            // 实际可渲染的页数（以pdf.js为准，若加载失败则以pdf_info为准）
+            const renderablePages = pdfDoc ? Math.min(pdfDoc.numPages, pdfInfoList.length) : pdfInfoList
+            .length;
+
+            for (let i = 0; i < pdfInfoList.length; i++) {
+                const pageInfo = pdfInfoList[i];
+                const pageNum = i + 1;
+                const [pageWidth, pageHeight] = pageInfo.page_size || [595, 842];
+
+                log(`渲染第 ${pageNum}/${pdfInfoList.length} 页, 尺寸: ${pageWidth}x${pageHeight}, 内容块: ${pageInfo.para_blocks?.length || 0}`);
+
+                // 创建页面wrapper
+                const wrapper = document.createElement('div');
+                wrapper.className = 'page-wrapper';
+                wrapper.style.width = pageWidth + 'px';
+                wrapper.style.height = pageHeight + 'px';
+                wrapper.dataset.pageHeight = pageHeight;
+                wrapper.dataset.pageNum = pageNum;
+                wrapper.id = `page-${pageNum}`;
+
+                // 页码标签
+                const pageLabel = document.createElement('div');
+                pageLabel.className = 'page-label';
+                pageLabel.textContent = `第 ${pageNum} 页`;
+                wrapper.appendChild(pageLabel);
+
+                // 渲染PDF背景（canvas）
+                if (pdfDoc && pageNum <= pdfDoc.numPages) {
+                    try {
+                        const canvas = document.createElement('canvas');
+                        canvas.style.position = 'absolute';
+                        canvas.style.top = '0';
+                        canvas.style.left = '0';
+                        canvas.style.zIndex = '1';
+                        canvas.className = 'pdf-canvas';
+                        wrapper.appendChild(canvas);
+
+                        const page = await pdfDoc.getPage(pageNum);
+                        const viewport = page.getViewport({ scale: 1.0 });
+                        canvas.width = viewport.width;
+                        canvas.height = viewport.height;
+
+                        await page.render({
+                            canvasContext: canvas.getContext('2d'),
+                            viewport: viewport
+                        }).promise;
+                        log(`  第 ${pageNum} 页 PDF 背景渲染完成`);
+                    } catch (e) {
+                        log(`  第 ${pageNum} 页 PDF.js 渲染失败: ${e.message}`, 'warn');
+                        wrapper.style.background = 'white';
+                    }
+                } else {
+                    // 无pdfDoc或超出页数范围，使用白色背景
+                    wrapper.style.background = 'white';
+                    if (!pdfDoc && i === 0) {
+                        log('  使用白色背景（PDF.js 不可用）', 'warn');
+                    }
+                }
+
+                // 添加可交互的 Bbox overlay
+                let bboxCount = 0;
+                if (pageInfo.para_blocks) {
+                    pageInfo.para_blocks.forEach((block, blockIndex) => {
+                        if (!block.bbox || block.bbox.length !== 4) return;
+
+                        const [x0, y0, x1, y1] = block.bbox;
+                        const overlay = document.createElement('div');
+                        overlay.className = `bbox-overlay bbox-${block.type}`;
+                        overlay.style.left = x0 + 'px';
+                        overlay.style.top = y0 + 'px';
+                        overlay.style.width = (x1 - x0) + 'px';
+                        overlay.style.height = (y1 - y0) + 'px';
+                        overlay.style.zIndex = '5';
+                        overlay.dataset.pageNum = pageNum;
+                        overlay.dataset.blockIndex = blockIndex;
+
+                        if (block.type === 'image') {
+                            overlay.style.borderColor = '#10b981';
+                            overlay.style.background = 'rgba(16, 185, 129, 0.1)';
+
+                            // 图片点击处理 - 调用 DeepSeek 分析
+                            overlay.onclick = async function() {
+                                if (this.classList.contains('analyzing')) return;
+
+                                const imgPath = extractImagePath(block);
+                                if (!imgPath) {
+                                    log('未找到图片路径', 'error');
+                                    appendMessage('无法获取图片路径', 'ai-msg error');
+                                    return;
+                                }
+
+                                const fullUrl = data.images_base_url + imgPath;
+                                const localPath =
+                                    `/public/home/whtian/xitong/api/static/pdfs/${data.filename.replace('.pdf', '')}/${imgPath}`;
+
+                                log(`点击分析图片 [第${pageNum}页]: ${imgPath}`);
+                                this.classList.add('analyzing');
+                                previewImg.src = fullUrl;
+                                targetPreview.classList.add('active');
+
+                                appendMessage(
+                                    '<span class="loading-spinner"></span>DeepSeek 分析图片内容...<br><small>判断类型：分子 / 反应 / 其他</small>',
+                                    'ai-msg loading');
+
+                                try {
+                                    const response = await fetch('/analyze/image', {
+                                        method: 'POST',
+                                        headers: { 'Content-Type': 'application/json' },
+                                        body: JSON.stringify({
+                                            image_url: fullUrl,
+                                            image_path: localPath
+                                        })
+                                    });
+
+                                    if (!response.ok) {
+                                        throw new Error(`HTTP ${response.status}`);
+                                    }
+
+                                    const result = await response.json();
+                                    log(`DeepSeek 分析结果: ${result.type}`);
+
+                                    // 移除 loading 消息
+                                    const loadingMsgs = chatMessages.querySelectorAll(
+                                        '.ai-msg.loading');
+                                    loadingMsgs.forEach(m => m.remove());
+
+                                    if (result.type === 'molecule') {
+                                        displayMoleculeResult(result);
+                                    } else if (result.type === 'reaction') {
+                                        displayReactionResult(result);
+                                    } else {
+                                        displayOtherResult(result);
+                                    }
+
+                                } catch (error) {
+                                    log(`识别失败: ${error.message}`, 'error');
+                                    appendMessage('❌ 识别失败: ' + error.message, 'ai-msg error');
+                                } finally {
+                                    this.classList.remove('analyzing');
+                                }
+                            };
+
+                            const hint = document.createElement('div');
+                            hint.className = 'bbox-hint';
+                            hint.innerHTML = '🔍 DeepSeek';
+                            overlay.appendChild(hint);
+
+                        } else if (block.type === 'text') {
+                            overlay.style.borderColor = '#3b82f6';
+                            overlay.style.background = 'rgba(59, 130, 246, 0.08)';
+                            overlay.onclick = () => {
+                                const text = extractText(block);
+                                log(`点击文本 [第${pageNum}页]: ${text.substring(0, 50)}...`);
+                                appendMessage(
+                                    `📝 文本内容 [第${pageNum}页]:<br><code style="font-size:11px;">${text.substring(0, 200)}...</code>`,
+                                    'ai-msg');
+                            };
+                        }
+
+                        wrapper.appendChild(overlay);
+                        bboxCount++;
+                    });
+                }
+
+                log(`  第 ${pageNum} 页: 添加了 ${bboxCount} 个检测框`);
+                pdfContainer.appendChild(wrapper);
+                pageWrappers.push({ wrapper: wrapper, height: pageHeight });
+            }
+
+            log(`全部 ${pdfInfoList.length} 页渲染完成，共 ${pageWrappers.length} 个页面wrapper`);
+            applyZoom();
+            // 滚动到顶部
+            pdfContainer.scrollTop = 0;
+            pageNumInput.value = 1;
+        }
+
+        // ============ 显示分子识别结果 ============
+        function displayMoleculeResult(data) {
+            if (!data.result || !data.result.data) {
+                appendMessage('⚠️ 分子识别未返回有效结果', 'ai-msg error');
+                return;
+            }
+
+            const result = data.result.data;
+            let html = `
+                <div style="background:#d1fae5; padding:12px; border-radius:8px; border-left:4px solid #10b981;">
+                    <div style="font-weight:bold; margin-bottom:8px; color:#065f46;">
+                        🔬 分子结构识别结果
+                        <span style="float:right; background:#10b981; color:white; padding:2px 8px; border-radius:12px; font-size:11px;">${(result.confidence * 100).toFixed(1)}%</span>
+                    </div>
+                    <div style="background:white; padding:8px; border-radius:4px; font-family:monospace; word-break:break-all; margin-bottom:8px;">
+                        <strong>SMILES:</strong><br>
+                        ${result.smiles || 'N/A'}
+                    </div>
+            `;
+
+            if (result.atoms && result.bonds) {
+                html +=
+                    `<small style="color:#065f46;">检测到 ${result.atoms.length} 个原子, ${result.bonds.length} 个键</small>`;
+            }
+            html += `</div>`;
+
+            if (result.molfile) {
+                html += `
+                    <details style="margin-top:8px; font-size:12px;">
+                        <summary style="cursor:pointer; color:#3b82f6;">查看 Molfile</summary>
+                        <pre style="margin-top:8px; font-size:10px; max-height:200px;">${result.molfile}</pre>
+                    </details>
+                `;
+            }
+
+            appendMessage(html, 'ai-msg molecule');
+        }
+
+        // ============ 显示反应识别结果 ============
+        function displayReactionResult(data) {
+            if (!data.result || !data.result.data) {
+                appendMessage('⚠️ 反应识别未返回有效结果', 'ai-msg error');
+                return;
+            }
+
+            const reactions = data.result.data;
+
+            if (!Array.isArray(reactions) || reactions.length === 0) {
+                appendMessage('⚠️ 未检测到反应步骤', 'ai-msg error');
+                return;
+            }
+
+            let html = `
+                <div style="background:#dbeafe; padding:12px; border-radius:8px; border-left:4px solid #3b82f6;">
+                    <div style="font-weight:bold; margin-bottom:10px; color:#1e40af; display:flex; justify-content:space-between; align-items:center;">
+                        <span>⚗️ 化学反应识别结果</span>
+                        <span style="background:#3b82f6; color:white; padding:3px 10px; border-radius:12px; font-size:12px;">${reactions.length} 步反应</span>
+                    </div>
+            `;
+
+            reactions.forEach((rxn, idx) => {
+                html +=
+                    `<div style="background:white; padding:12px; border-radius:6px; margin-bottom:12px; border:1px solid #e5e7eb;">`;
+                html +=
+                    `<div style="color:#3b82f6; font-weight:bold; margin-bottom:10px; font-size:14px; border-bottom:1px solid #dbeafe; padding-bottom:6px;">第 ${idx + 1} 步</div>`;
+
+                if (rxn.reactants && rxn.reactants.length > 0) {
+                    html +=
+                        `<div style="margin-bottom:10px;"><div style="font-size:11px; color:#6b7280; margin-bottom:4px;">反应物:</div>`;
+                    html += `<div style="display:flex; flex-wrap:wrap; gap:8px;">`;
+                    rxn.reactants.forEach((r, i) => {
+                        const smi = r.smiles || 'N/A';
+                        html +=
+                            `<div style="background:#fee2e2; color:#991b1b; padding:6px 10px; border-radius:4px; font-family:monospace; font-size:11px; border:1px solid #fecaca;">${smi}</div>`;
+                    });
+                    html += `</div></div>`;
+                }
+
+                if (rxn.conditions && rxn.conditions.length > 0) {
+                    html +=
+                        `<div style="margin-bottom:10px;"><div style="font-size:11px; color:#6b7280; margin-bottom:4px;">反应条件:</div>`;
+                    html += `<div style="display:flex; flex-wrap:wrap; gap:6px;">`;
+                    rxn.conditions.forEach((c, i) => {
+                        const condText = c.text ? c.text.join(', ') : JSON.stringify(c);
+                        html +=
+                            `<div style="background:#fef3c7; color:#92400e; padding:4px 8px; border-radius:4px; font-size:11px; border:1px solid #fde68a;">${condText}</div>`;
+                    });
+                    html += `</div></div>`;
+                }
+
+                if (rxn.products && rxn.products.length > 0) {
+                    html +=
+                        `<div style="margin-bottom:10px;"><div style="font-size:11px; color:#6b7280; margin-bottom:4px;">产物:</div>`;
+                    html += `<div style="display:flex; flex-wrap:wrap; gap:8px;">`;
+                    rxn.products.forEach((p, i) => {
+                        const smi = p.smiles || 'N/A';
+                        html +=
+                            `<div style="background:#d1fae5; color:#065f46; padding:6px 10px; border-radius:4px; font-family:monospace; font-size:11px; border:1px solid #a7f3d0;">${smi}</div>`;
+                    });
+                    html += `</div></div>`;
+                }
+
+                if ((rxn.reactants && rxn.reactants.length > 0) || (rxn.products && rxn.products.length >
+                    0)) {
+                    const reactantSmiles = rxn.reactants ? rxn.reactants.map(r => r.smiles).filter(s => s)
+                        .join('.') : '';
+                    const productSmiles = rxn.products ? rxn.products.map(p => p.smiles).filter(s => s).join(
+                        '.') : '';
+
+                    if (reactantSmiles || productSmiles) {
+                        html += `<details style="margin-top:10px;">`;
+                        html +=
+                            `<summary style="cursor:pointer; color:#3b82f6; font-size:11px; font-weight:bold;">查看反应式 SMILES</summary>`;
+                        html +=
+                            `<div style="margin-top:8px; padding:8px; background:#f8fafc; border-radius:4px;">`;
+                        if (reactantSmiles) {
+                            html +=
+                                `<div style="font-size:10px; color:#6b7280; margin-bottom:4px;">反应物 SMILES:</div>`;
+                            html +=
+                                `<code style="display:block; font-size:10px; word-break:break-all; color:#991b1b; background:#fee2e2; padding:4px; border-radius:2px;">${reactantSmiles}</code>`;
+                        }
+                        html +=
+                            `<div style="text-align:center; margin:6px 0; color:#9ca3af; font-size:14px;">→</div>`;
+                        if (productSmiles) {
+                            html +=
+                                `<div style="font-size:10px; color:#6b7280; margin-bottom:4px;">产物 SMILES:</div>`;
+                            html +=
+                                `<code style="display:block; font-size:10px; word-break:break-all; color:#065f46; background:#d1fae5; padding:4px; border-radius:2px;">${productSmiles}</code>`;
+                        }
+                        html += `</div></details>`;
+                    }
+                }
+
+                html += `</div>`;
+            });
+
+            html += `</div>`;
+            appendMessage(html, 'ai-msg reaction');
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // ============ 显示其他类型结果 ============
+        function displayOtherResult(data) {
+            appendMessage(`
+                <div style="background:#fef3c7; padding:12px; border-radius:8px; border-left:4px solid #f59e0b;">
+                    <div style="font-weight:bold; margin-bottom:8px; color:#92400e;">
+                        ⚠️ 非化学结构图
+                    </div>
+                    <div style="margin-bottom:8px;">
+                        DeepSeek 判断这是：<strong>${data.analysis || '其他内容'}</strong>
+                    </div>
+                    <div style="font-size:12px; color:#92400e;">
+                        💡 提示：请尝试点击包含化学结构式的绿色框（通常为带分子结构或反应箭头的区域）
+                    </div>
+                </div>
+            `, 'ai-msg warning');
+        }
+
+        // ============ 辅助函数 ============
+        function extractImagePath(block) {
+            let path = null;
+            if (block.blocks) {
+                for (const b of block.blocks) {
+                    if (b.lines) {
+                        for (const l of b.lines) {
+                            if (l.spans) {
+                                for (const s of l.spans) {
+                                    if (s.type === 'image' && s.image_path) return s.image_path;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            return path;
+        }
+
+        function extractText(block) {
+            let text = '';
+            if (block.lines) {
+                block.lines.forEach(l => {
+                    if (l.spans) {
+                        l.spans.forEach(s => { if (s.content) text += s.content; });
+                    }
+                });
+            }
+            return text;
+        }
+
+        function appendMessage(html, className) {
+            const div = document.createElement('div');
+            div.className = `message ${className}`;
+            div.innerHTML = html;
+            chatMessages.appendChild(div);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function clearChat() {
+            chatMessages.innerHTML = `
+                <div class="target-preview" id="targetPreview">
+                    <img id="previewImg" src="">
+                    <div class="info"><span>未选择目标</span><span onclick="clearTarget()">×</span></div>
+                </div>
+                <div class="message ai-msg">对话已清空</div>
+            `;
+        }
+
+        function clearTarget() {
+            targetPreview.classList.remove('active');
+            previewImg.src = '';
+        }
+
+        function enableInput() {
+            document.getElementById('userInput').disabled = false;
+            document.getElementById('sendBtn').disabled = false;
+        }
+
+        function sendMessage() {
+            const text = document.getElementById('userInput').value.trim();
+            if (!text) return;
+            appendMessage(text, 'user-msg');
+            document.getElementById('userInput').value = '';
+            setTimeout(() => appendMessage('收到问题，正在处理...', 'ai-msg'), 500);
+        }
+
+        // ============ 初始化 ============
+        pdfjsLib.GlobalWorkerOptions.workerSrc =
+            'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+        log('系统初始化完成（多页支持），等待上传 PDF...');
+    </script>
+</body>
+</html>

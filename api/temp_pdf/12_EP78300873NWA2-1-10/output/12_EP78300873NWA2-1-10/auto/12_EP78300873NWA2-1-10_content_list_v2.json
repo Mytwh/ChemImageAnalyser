@@ -1,0 +1,2765 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "?"
+                    }
+                ]
+            },
+            "bbox": [
+                160,
+                74,
+                183,
+                93
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "EUROPEAN PATENT APPLICATION"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                379,
+                149,
+                704,
+                168
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "?"
+                    }
+                ]
+            },
+            "bbox": [
+                162,
+                153,
+                186,
+                171
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "? Application number: 78300873.3"
+                    }
+                ]
+            },
+            "bbox": [
+                162,
+                196,
+                400,
+                214
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Date offiling:20.12.78"
+                    }
+                ]
+            },
+            "bbox": [
+                162,
+                221,
+                336,
+                237
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "③Priority:19.01.78 GB 216678 14.03.78 GB 998578"
+                    }
+                ]
+            },
+            "bbox": [
+                160,
+                331,
+                377,
+                360
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": " Date of publication of application: 05.09.79 Bulletin 79/18"
+                    }
+                ]
+            },
+            "bbox": [
+                160,
+                379,
+                395,
+                407
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Designated contracting states: BE CH DE FR GB NL"
+                    }
+                ]
+            },
+            "bbox": [
+                160,
+                414,
+                376,
+                442
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": " Applicant: BEECHAM GROUP LIMITED Beecham House Great West Road Brentford, Middlesex(GB)"
+                    }
+                ]
+            },
+            "bbox": [
+                160,
+                518,
+                429,
+                558
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": " int.Ci.2: C 07 D 487/04 A 61_K 31/40,C 07 C 149/24 //C07D205/08,C07F9/65, C07F1/10,C07C149/20, C07C149/18,C07D327/06, (C07D487/04,209/00,205/00), (A61K31/40,31/43)"
+                    }
+                ]
+            },
+            "bbox": [
+                543,
+                193,
+                921,
+                299
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2 inventor: Ponsford, Roger John 5 Copse Close Wimblehurst Park Horsham Sussex(GB)"
+                    }
+                ]
+            },
+            "bbox": [
+                546,
+                332,
+                774,
+                372
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "? Inventor: Baxter, Andrew John Gilby 3 Albina Garth Medon Hull N. Humberside(GB)"
+                    }
+                ]
+            },
+            "bbox": [
+                548,
+                380,
+                805,
+                419
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "② Inventor: Southgate, Robert 7 Tillets Lane Warnham West Sussex(GB)"
+                    }
+                ]
+            },
+            "bbox": [
+                548,
+                428,
+                754,
+                467
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2 inventor: Roberts,Patricia Margaret 15 Bakehouse Road Horiey Surrey(GB)"
+                    }
+                ]
+            },
+            "bbox": [
+                548,
+                474,
+                800,
+                514
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "C4) Representative: Cole, William Gwyn et al,  Beecham Pharmaceuticals Yew Tree Bottom Road Epsom Surrey KT18 5XQ(GB)"
+                    }
+                ]
+            },
+            "bbox": [
+                546,
+                519,
+                881,
+                560
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "@ Beta-iactam antibiotics, a process for their preparation and their use in pharmaceutical compositions."
+                    }
+                ]
+            },
+            "bbox": [
+                160,
+                586,
+                802,
+                602
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "? The present invention provides the antibacterial agents ofthe formula (l):"
+                    }
+                ]
+            },
+            "bbox": [
+                160,
+                609,
+                532,
+                634
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9b7f2c2337137c4c292f025940755690c1d944e4b275a9af3b397c75f2cfa018.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(II）"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                284,
+                625,
+                503,
+                694
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Wherein R1 is a group such that CO2R1 is a carboxylic acid group or a salt thereof or_is a group of the formula CO2Rl wherein Rlis a group such that CO2Ris an ester group. 'R2 is a hydrogen atom or a lower alkyl group; R3 is a hydro-'gen atom or a lower alkyl group; and R4 is a phenyi group or a phenyl group substituted by one or two groups selected from fluorine, chlorine, OR5, NH.CO.Rs,NH.CO2R5 or CO2R5 where Rs is a iower alkyi or benzyl group or R4 is a hydrogen atom Or lower alkyl group or R. is a CO2Rs group where Rs is a lower alkyl group or benzyl group or R4 is a NH.COnRe group where Rs is a lower alkyl group, a phenyl group or a phenyl group substituted by one or two halogen atoms, lower alkyl or iower alkoxyl groups; and n is 1 or 2. A process for their :preparation and their use in pharmaceutical compositions is also described."
+                    }
+                ]
+            },
+            "bbox": [
+                162,
+                693,
+                535,
+                875
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "20 004 200 4"
+                    }
+                ]
+            },
+            "bbox": [
+                138,
+                739,
+                162,
+                881
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                192,
+                54,
+                262,
+                112
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Europaisches Patentamt European Patent Office Office europeen des brevets"
+                    }
+                ]
+            },
+            "bbox": [
+                268,
+                54,
+                493,
+                115
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": " Publication number:"
+                    }
+                ]
+            },
+            "bbox": [
+                543,
+                74,
+                699,
+                92
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "0 003 740 A2"
+                    }
+                ]
+            },
+            "bbox": [
+                776,
+                71,
+                916,
+                112
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Croydon Printing Company Ltd."
+                    }
+                ]
+            },
+            "bbox": [
+                475,
+                933,
+                625,
+                945
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "British Patent No. 1,483,142 discloses that the compound of the formula (I):"
+                    }
+                ]
+            },
+            "bbox": [
+                223,
+                384,
+                847,
+                426
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d61b6d3b24e224f22b3ee09b0dcd2e326c237abca12a310e5f7c0443775b2854.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                364,
+                439,
+                733,
+                556
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(I)"
+                    }
+                ]
+            },
+            "bbox": [
+                832,
+                510,
+                868,
+                531
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "wherein Z is HozS and its salts may be obtained by fermentation of strains of Streptomyces olivaceus. Danish Patent Application No. 984/78 discloses that the compound of the formula (I) wherein Z is H and its salts could also be obtained by fermentation of strains of that organism. We have found that a distinct class of synthetic antibacterial agents which contain a β-lactam ring fused to a pyrroline ring may be prepared."
+                    }
+                ]
+            },
+            "bbox": [
+                223,
+                579,
+                940,
+                752
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Accordingly the present invention provides the compounds of the formula (II):"
+                    }
+                ]
+            },
+            "bbox": [
+                226,
+                772,
+                850,
+                815
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d6347aff68a29907a13c59e14b8b76fcf9247d8249da1b99c60f88b1a6472541.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                406,
+                843,
+                692,
+                928
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(II)"
+                    }
+                ]
+            },
+            "bbox": [
+                837,
+                858,
+                884,
+                878
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "0003740"
+                    }
+                ]
+            },
+            "bbox": [
+                755,
+                46,
+                879,
+                70
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                123,
+                624,
+                144,
+                642
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "10"
+                    }
+                ]
+            },
+            "bbox": [
+                127,
+                731,
+                154,
+                749
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1"
+                    }
+                ]
+            },
+            "bbox": [
+                546,
+                268,
+                569,
+                285
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "β-Lactam Antibiotics,A Process for their Preparation and their Use in Pharmaceutical Compositions."
+                    }
+                ]
+            },
+            "bbox": [
+                336,
+                311,
+                845,
+                360
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "wherein "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R _ { 1 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a group such that "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { c o } _ { 2 } \\mathtt { R } _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a carboxylic acid group or a salt thereof or is a group of the formula "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { c o } _ { 2 } \\mathtt { R } _ { 1 } ^ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "wherein "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R } _ { \\mathtt { I } } ^ { \\mathtt { I } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a group such that "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { c o } _ { 2 } \\mathsf { R } _ { 1 } ^ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is. an ester group, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a hydrogen atom or a lower alkyl group; "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R } _ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a hydrogen atom or a lower alkyl group; and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R _ { 4 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": " is a phenyl group or a phenyl group substituted by one or two groups selected from fluorine， chlorine, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\tt O R } _ { 5 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，NH.CO. "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 5 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，NH. "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { c o } _ { 2 } \\mathtt { R } _ { 5 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "or "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { c o } _ { 2 } \\mathtt { R } _ { 5 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "where "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R } _ { 5 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a lower alkyl or benzyi group or "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a hydrogen atom or lower alkyl group or "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R _ { 4 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "isa "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C O _ { 2 } R _ { 5 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "group where "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 5 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a lower alkyl group or benzyl group or "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R _ { 4 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a NH. "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\tt C O } _ { \\tt n } \\tt R _ { 6 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "group where "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R _ { 6 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a lower alkyl group， a phenyl group or a phenyl group substituted by one or two halogen atoms， lower alkyl or lower alkoxyl groups; and n is 1 or 2."
+                    }
+                ]
+            },
+            "bbox": [
+                250,
+                136,
+                901,
+                436
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "When used herein the term \"lower\""
+                    }
+                ]
+            },
+            "bbox": [
+                475,
+                438,
+                869,
+                455
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "means the group contains up to 4 carbon atoms."
+                    }
+                ]
+            },
+            "bbox": [
+                252,
+                461,
+                797,
+                478
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Aptly "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { c o } _ { 2 } \\mathtt { R } _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "in the compounds of the formula (II) represents a carboxylic acid group or a salt thereof."
+                    }
+                ]
+            },
+            "bbox": [
+                254,
+                481,
+                892,
+                542
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Aptly "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\tt c o } _ { 2 } \\tt R _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "in the compounds of the formula (II) represents an ester group "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { c o } _ { 2 } \\mathsf { R } _ { 1 } ^ { 1 }"
+                    }
+                ]
+            },
+            "bbox": [
+                255,
+                546,
+                892,
+                588
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Particularly suitable lower alkyl"
+                    }
+                ]
+            },
+            "bbox": [
+                475,
+                590,
+                868,
+                607
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "groups include the methyl and ethyl groups. A preferred lower alkyl group is the methyl group."
+                    }
+                ]
+            },
+            "bbox": [
+                254,
+                612,
+                914,
+                652
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "atom."
+                    }
+                ]
+            },
+            "bbox": [
+                250,
+                682,
+                313,
+                696
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathtt { R } _ { 2 }",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/999be5105492d6e5d12cd9c218a1978d47a78ebfe5bf96805b640ee674f63ddc.jpg"
+                }
+            },
+            "bbox": [
+                717,
+                663,
+                745,
+                682
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Favoured values for "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "include the hydrogen atom and the methyl group."
+                    }
+                ]
+            },
+            "bbox": [
+                249,
+                706,
+                887,
+                749
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A preferred value for "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the hydrogen atom."
+                    }
+                ]
+            },
+            "bbox": [
+                321,
+                769,
+                861,
+                793
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Suitably "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R } _ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a phenyl group or a phenyl group substituted by one or two groups selected from fluorine， chlorine, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "O R _ { 5 }"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { N H . C O . R _ { 5 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N _ { 1 } I _ { 0 } = 2 ^ { R _ { 5 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "or "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C O _ { 2 ^ { R _ { 5 } } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "where "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 5 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a lower alkyl or benzyl group or "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a hydrogen atom or lower alkyl group or "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R } _ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "isa "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "c o _ { 2 ^ { R _ { 5 } } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "group where "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 5 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a lower alkyl or benzyl group."
+                    }
+                ]
+            },
+            "bbox": [
+                323,
+                813,
+                879,
+                835
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "10"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                332,
+                212,
+                348
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                197,
+                224,
+                212,
+                240
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "15"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                439,
+                210,
+                455
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": []
+            },
+            "bbox": [
+                186,
+                549,
+                212,
+                563
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "0003740"
+                    }
+                ]
+            },
+            "bbox": [
+                790,
+                34,
+                914,
+                57
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "25"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                658,
+                209,
+                674
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                557,
+                93,
+                580,
+                108
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                172,
+                130,
+                842,
+                241
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Suitably "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R } _ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "isa "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathbb { N H . C O } _ { \\mathtt { n } ^ { \\mathtt { h } } 6 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "group where. "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a _ { 6 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "isa lower alkyl group，a phenyl group or a phenyl group substituted by one or two halogen atoms，lower alkyl or lower alkoxyl groups; and n is 1 or 2."
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                263,
+                803,
+                351
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "From the foregoing it will be realised that certain favoured compounds of this invention include those of the formula (III) and (IV):"
+                    }
+                ]
+            },
+            "bbox": [
+                180,
+                374,
+                863,
+                438
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/f11502ff9dce109609f0ad54cdfb1bb3db64ab1728ad1a982be2627de781d264.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                355,
+                472,
+                712,
+                556
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（III）"
+                    }
+                ]
+            },
+            "bbox": [
+                787,
+                492,
+                847,
+                512
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8a0af2ff256714c6d755f8e572752a0ea4d129b4061560e564a9f861ad859f99.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                350,
+                562,
+                758,
+                649
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(Iv）"
+                    }
+                ]
+            },
+            "bbox": [
+                800,
+                580,
+                847,
+                600
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "wherein "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",n and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n _ { 6 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "are as defined in relation to formula (II）."
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                659,
+                876,
+                701
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Most suitably n is 1."
+                    }
+                ]
+            },
+            "bbox": [
+                257,
+                725,
+                512,
+                744
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Similarly it will be realised that other favoured compounds of this invention include those of the formula (v):"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                769,
+                855,
+                833
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                417,
+                93,
+                436
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "0003740"
+                    }
+                ]
+            },
+            "bbox": [
+                723,
+                14,
+                848,
+                39
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3"
+                    }
+                ]
+            },
+            "bbox": [
+                475,
+                97,
+                501,
+                114
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "10"
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                788,
+                109,
+                806
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/5b810a457d6336ae2177f1111d59e9e964d13c609eebb3f4a2e023038d0ed9d5.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                381,
+                127,
+                676,
+                215
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(v）"
+                    }
+                ]
+            },
+            "bbox": [
+                823,
+                145,
+                858,
+                166
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is as defined in relation to formula (II) and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\tt R } _ { \\mathrm { ~ 4 ~ } } ^ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a group "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R } _ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": " as defined in relation to formula (II) excluding the NH. "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C O _ { \\tt m } R _ { 6 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "group."
+                    }
+                ]
+            },
+            "bbox": [
+                207,
+                240,
+                876,
+                309
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Suitably "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\ R ^ { 1 } { } _ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is a phenyl group optionally monosubstituted."
+                    }
+                ]
+            },
+            "bbox": [
+                209,
+                324,
+                844,
+                376
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Suitable groups "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "include the phenyl，p-chlorophenyl，m-chlorophenyl，p-nitrophenyl，m-nitrophenyl, p-ethoxycarbonylphenyl， p-fluorophenyl， p-methylphenyl, p-methoxyphenyl and 1ike groups."
+                    }
+                ]
+            },
+            "bbox": [
+                207,
+                399,
+                864,
+                487
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Other suitable groups "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R } _ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "include the hydrogen atom and the methyl and ethyl groups."
+                    }
+                ]
+            },
+            "bbox": [
+                209,
+                507,
+                819,
+                552
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Yet other suitable groups "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R } _ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "include those of the formula "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C O _ { 2 ^ { R _ { 7 } } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "where "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n _ { 7 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is methyl，ethyl，phenyl or benzyl."
+                    }
+                ]
+            },
+            "bbox": [
+                209,
+                574,
+                868,
+                639
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "It will be realised that the compounds of the formula (II) may be in either of two geometrical forms about the exocyclic double bond as shown in the sub-formulae (a)and (b） thus:"
+                    }
+                ]
+            },
+            "bbox": [
+                210,
+                661,
+                914,
+                749
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6a531cecf9234534eda951154ab090e1f3064eb7553c228e50412d90729b97b7.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                572,
+                762,
+                763,
+                853
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(b)"
+                    }
+                ]
+            },
+            "bbox": [
+                803,
+                784,
+                839,
+                804
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "15"
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                326,
+                127,
+                346
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                102,
+                463,
+                117,
+                481
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "10"
+                    }
+                ]
+            },
+            "bbox": [
+                102,
+                615,
+                130,
+                634
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "0003740"
+                    }
+                ]
+            },
+            "bbox": [
+                754,
+                3,
+                879,
+                29
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4"
+                    }
+                ]
+            },
+            "bbox": [
+                475,
+                86,
+                498,
+                105
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Both separated geometrical isomers and mixtures of said isomers are within the scope of this invention."
+                    }
+                ]
+            },
+            "bbox": [
+                218,
+                161,
+                848,
+                221
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In the compounds of the formulae (II） - (v) "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { c o } _ { 2 } \\mathtt { R } _ { \\mathtt { I } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is favourably a carboxylic acid group or a salt thereof. Most favourably "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { c o } _ { 2 } \\mathsf { R } _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "represents a salted carboxylic acid group wherein the cation is pharmaceutically acceptable. Preferred pharmaceutically acceptable salts include the sodium， potassium， calcium and magnesium salts of which the sodium salt is particularly preferred."
+                    }
+                ]
+            },
+            "bbox": [
+                220,
+                227,
+                885,
+                395
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Suitable groups "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 1 } ^ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "include alkyl groups of up to 12 carbon atoms，alkenyl groups of up to 12 carbon atoms, alkynyl groups of up to 12 carbon atoms， phenyl or benzyl groups or any aforesaid inertly substituted by lower alkoxyl,lower acyloxyl，halogen,nitro or the like group. Used herein 'inertly substituted' means that the resulting group is stable and will not undergo rapid decomposition."
+                    }
+                ]
+            },
+            "bbox": [
+                220,
+                399,
+                908,
+                549
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Particularly suitable groups "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 1 } ^ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "include lower alkyl groups optionally substituted by lower alkoxyl group; the benzyl group optionally substituted by lower alkoxyl, nitro，chloro or the like; and those groups which are known to give rise to rapid in-vivo hydrolysis in penicillin esters."
+                    }
+                ]
+            },
+            "bbox": [
+                218,
+                569,
+                929,
+                699
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Certain preferred groups "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 1 } ^ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "include the methyl，ethyl, methoxymethyl，2-methoxyethyl，benzyl，methoxybenzyl and the like. Other preferred groups "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a _ { 1 } ^ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "include those which give rise to in-vivo hydrolysable esters such as the acetoxymethyl， pivaloyloxymethyl，α-ethoxycarbonyloxyethyl, phthalidyl and the like."
+                    }
+                ]
+            },
+            "bbox": [
+                220,
+                721,
+                924,
+                853
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "An especially preferred group "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 1 } ^ { I }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the phthalidyl group."
+                    }
+                ]
+            },
+            "bbox": [
+                225,
+                872,
+                882,
+                916
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "0003740"
+                    }
+                ]
+            },
+            "bbox": [
+                752,
+                53,
+                876,
+                76
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                520,
+                115,
+                545,
+                130
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A further especially preferred group "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 1 } ^ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the p-nitrobenzyl group."
+                    }
+                ]
+            },
+            "bbox": [
+                245,
+                148,
+                864,
+                196
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The compounds of the formula (II) most suitably have the configuration shown in formula (vI):"
+                    }
+                ]
+            },
+            "bbox": [
+                245,
+                218,
+                877,
+                260
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3452adf8b3faf5a707e9b121153feb221e9414a706510c2f04d87e964a22482a.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                418,
+                288,
+                720,
+                392
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(VI)"
+                    }
+                ]
+            },
+            "bbox": [
+                855,
+                328,
+                901,
+                347
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "wherein "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "are as defined in relation to formula (II)."
+                    }
+                ]
+            },
+            "bbox": [
+                247,
+                414,
+                900,
+                454
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Thus the compounds of the invention are preferably those having the S- configuration at C-5. However, mixtures of the compounds·of the formula (vI) with their enantiomers， for example the 5Rs compounds，are also included within this invention."
+                    }
+                ]
+            },
+            "bbox": [
+                247,
+                479,
+                924,
+                585
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A reaction sequence leading to the compounds of this invention is as follows:"
+                    }
+                ]
+            },
+            "bbox": [
+                252,
+                605,
+                882,
+                644
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "0003740"
+                    }
+                ]
+            },
+            "bbox": [
+                789,
+                34,
+                911,
+                55
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6"
+                    }
+                ]
+            },
+            "bbox": [
+                514,
+                109,
+                540,
+                126
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/ad1b1d8c57ea2c0f1877a1675f18e347cf154cc02c7087cc1dd6839438c18700.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                209,
+                177,
+                927,
+                804
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The process provided by this invention for the preparation of the compounds of the formula (II) comprises the ring closing elimination of the elements of triphenylphosphineoxide from a compound of the formula (vII):"
+                    }
+                ]
+            },
+            "bbox": [
+                205,
+                819,
+                897,
+                892
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "0003740"
+                    }
+                ]
+            },
+            "bbox": [
+                766,
+                55,
+                893,
+                78
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "II"
+                    }
+                ]
+            },
+            "bbox": [
+                159,
+                726,
+                186,
+                744
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7"
+                    }
+                ]
+            },
+            "bbox": [
+                525,
+                136,
+                551,
+                152
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                223,
+                174,
+                839,
+                195
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/bde2cd6418ec3dd05fd5a4a137694dee7fd7a3cfa15d81615c5b7c3d6c761858.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(VII)"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                385,
+                248,
+                686,
+                347
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "wherein "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 1 } ^ { I }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R _ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { R } _ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": " are as defined in relation to formula (II);and thereafter cleaving the ester to yield the carboxylic acid or its salt."
+                    }
+                ]
+            },
+            "bbox": [
+                225,
+                366,
+                879,
+                431
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The ring closure is normally brought about by heating the compound of the formula (vII） in an inert solvent; for example temperatures of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "9 0 - 1 2 0 ^ { \\circ }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and more suitably "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 0 0 - 1 1 0 ^ { \\circ } C"
+                    },
+                    {
+                        "type": "text",
+                        "content": "may be employed in a solvent such as toluene or the like. The reaction is best carried out under dry conditions under an inert gas."
+                    }
+                ]
+            },
+            "bbox": [
+                223,
+                435,
+                876,
+                562
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The ester of the compound (II) produced may be isolated by any standard method such as fractional crystallisation or chromatography. We have found that it is most convenient to separate the desired product by column chromatography."
+                    }
+                ]
+            },
+            "bbox": [
+                228,
+                564,
+                868,
+                671
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Any convenient ester may be used in the process of this invention. Since it is frequently desirable to form a salt of compounds (II)， the ester employed is preferably one which is readily converted to the parent acid or its salt by mild methods of hydrogenolysis. In a further aspect therefore the invention includes a process for preparing a salt or free acid of a compound (II) which process comprises de-esterifying an ester of a compound of formula (II). Particularly suitable esters for use in this process include benzyl esters，optionally substituted in the para position"
+                    }
+                ]
+            },
+            "bbox": [
+                228,
+                674,
+                911,
+                908
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "0003740"
+                    }
+                ]
+            },
+            "bbox": [
+                763,
+                29,
+                889,
+                53
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8"
+                    }
+                ]
+            },
+            "bbox": [
+                525,
+                102,
+                549,
+                116
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "by a lower alkoxy，or nitro group or a halogen atom."
+                    }
+                ]
+            },
+            "bbox": [
+                233,
+                149,
+                848,
+                166
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A preferred ester for use in this process is the p-nitrobenzyl ester."
+                    }
+                ]
+            },
+            "bbox": [
+                233,
+                171,
+                872,
+                210
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Esters of compounds (II) may be de-esterified by conventional methods of hydrogenolysis."
+                    }
+                ]
+            },
+            "bbox": [
+                234,
+                215,
+                874,
+                254
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Suitable methods include hydrogenation in the presence of a transition metal catalyst. The pressure of hydrogen used in the reaction may be low，medium or high but in general an approximately atmospheric or slightly super-atmospheric pressure of hydrogen is preferred. The transition metal catalyst employed is preferably palladium on charcoal or on calcium carbonate. The hydrogenation may be effected in a suitable solvent in which the ester is soluble such as aqueous dioxan or the like. If this hydrogenation is carried out in the presence of a base then a salt of compounds (II) is produced. Suitable bases for inclusion include "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\tt N a H C O } _ { 3 }"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { K H C O } _ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "/ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\aleph \\mathsf { a } _ { 2 } \\mathsf { C o } _ { 3 } , \\aleph _ { 2 } \\mathsf { C o } _ { 3 } , \\mathsf { C a C O } _ { 3 }"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\yen 123"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { L i H C O } _ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { N F } _ { 4 } \\mathtt { O C O C F } _ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and the like. If no base is present then hydrogenation leads to the preparation of an acid within formula (II) which may then be neutralised if desired to yield a salt. Suitable bases which may be used to neutralise acids within formula (II) include LiOH，NaOH, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\tt N a H C O } _ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，KOH，Ca "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left( \\mathsf { O } \\bar { \\mathbf { H } } \\right) _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and Ba "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left( \\mathsf { O H } \\right) _ { 2 }"
+                    }
+                ]
+            },
+            "bbox": [
+                237,
+                258,
+                914,
+                667
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The salts of acids (II) may be converted to esters in conventional manner， for example by reaction with a reactive halide such as bromophthalide in solution in dimethylformamide or like solvent."
+                    }
+                ]
+            },
+            "bbox": [
+                241,
+                668,
+                879,
+                751
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The compound of the formula (vII） may be prepared by the reaction of a corresponding compound of the formula (VIII):"
+                    }
+                ]
+            },
+            "bbox": [
+                239,
+                757,
+                921,
+                821
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "15"
+                    }
+                ]
+            },
+            "bbox": [
+                172,
+                451,
+                196,
+                466
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                180,
+                235,
+                194,
+                250
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "10"
+                    }
+                ]
+            },
+            "bbox": [
+                170,
+                344,
+                196,
+                360
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": []
+            },
+            "bbox": [
+                173,
+                560,
+                199,
+                574
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "0003740"
+                    }
+                ]
+            },
+            "bbox": [
+                766,
+                46,
+                889,
+                67
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "25"
+                    }
+                ]
+            },
+            "bbox": [
+                175,
+                668,
+                199,
+                683
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "9"
+                    }
+                ]
+            },
+            "bbox": [
+                546,
+                104,
+                570,
+                118
+            ]
+        }
+    ]
+]

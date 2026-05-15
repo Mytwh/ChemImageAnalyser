@@ -1,0 +1,349 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "[0293] Synthetic Example E: Synthesis of Example 71 "
+                    }
+                ]
+            },
+            "bbox": [
+                102,
+                114,
+                632,
+                134
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4760106fe58fc744b8af873782f6f8828ec8f6ad6199b69bd342af1c9e15c27f.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                225,
+                139,
+                390,
+                192
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/644c1339f4baafb99432c2c4d491a6ccd50c641435f7c7de3aacea2b22eb095c.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "R-9 "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                400,
+                148,
+                545,
+                193
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/acbccffe70ad037c176deb56e93f4d9469556b7a25b27f21a23062154bf182ed.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Ex 71 "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                565,
+                137,
+                772,
+                208
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "[0294] Aniline (22 mg, 0.241 mmol) and pyridine (0.097 mL, 1.20 mmol) are suspended in  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm{CH}_2\\mathrm{Cl}_2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (5 mL) and cooled to  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "0^{\\circ}\\mathrm{C}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " and stirred for 5 minutes. To the reaction mixture R-9 (50 mg, 0.241 mmol) is added and the reaction mixture is stirred for 10 minutes. The reaction mixture is concentrated in vacuo. The crude product is purified by preparative HPLC to afford Example 71 (22 mg, 35%). "
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                236,
+                895,
+                351
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "[0295] Synthetic Example F: Synthesis of Example 11 "
+                    }
+                ]
+            },
+            "bbox": [
+                102,
+                359,
+                629,
+                378
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6be479af110e97206eae49405d1cbd0e949f4183fd08e52d30148dd8e05386a9.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "R-10 "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                146,
+                385,
+                316,
+                442
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/f1b5403fde759f806bdb2ff8d0310ab5341c2d0fe031ae05e931e34194bc1280.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "R-11 "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                336,
+                384,
+                446,
+                441
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/5672fb1acd63b2b10587c1d826a7608c312fbafd3e979b9c134b85d59293b4be.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                481,
+                387,
+                624,
+                438
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1d27521cc0d4eb27a8f0253b836d911189e8102ae61c669fe95422b359a3c4a8.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Ex 11 "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                654,
+                382,
+                851,
+                453
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[0296] R-10 (50 mg, 0.359 mmol), R-11 (69 uL, 0.539 mmol) are dissolved in  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "\\mathrm{CH_2Cl_2}"
+                            },
+                            {
+                                "type": "text",
+                                "content": " (2 mL). Triethylamine (0.15 mL, 1.08 mmol) is added and the reaction mixture is stirred at room temperature for 17 hrs. The mixture is washed with water (2 mL) then passed through a Telos phase separator. Additional  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "\\mathrm{CH_2Cl_2}"
+                            },
+                            {
+                                "type": "text",
+                                "content": " (2 mL) is passed through the phase separator. The combined organic layers are concentrated in vacuo to give the crude product. The crude material is purified by preparative HPLC to afford Example 11 (6.0 mg, 5.9%). "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[0297] The following examples are prepared in similar fashion from the appropriate aniline and sulphonyl chloride: Examples 17, 195, and 207-209. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[0298] Synthetic Example G: Synthesis of Example 23 "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                485,
+                897,
+                702
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2ddb117c79c88d51f869978f35a5d5384a03b17045a36aeffa7ccf2beaa2019b.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                104,
+                706,
+                895,
+                785
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "[0299] R-12 (5.00 g, 20.6 mmol), triethylamine (8.6 mL, 61.8 mmol) and R-13 (2.29 g, 20.6 mmol) are suspended in DMF (10 mL). The reaction mixture is sealed under a nitrogen atmosphere and stirred at 80 °C for 1 hour then cooled to room temperature and partitioned "
+                    }
+                ]
+            },
+            "bbox": [
+                101,
+                794,
+                895,
+                863
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "WO 2020/252229 "
+                    }
+                ]
+            },
+            "bbox": [
+                141,
+                46,
+                272,
+                59
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "PCT/US2020/037378 "
+                    }
+                ]
+            },
+            "bbox": [
+                705,
+                46,
+                861,
+                59
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "98 "
+                    }
+                ]
+            },
+            "bbox": [
+                481,
+                935,
+                503,
+                947
+            ]
+        }
+    ]
+]

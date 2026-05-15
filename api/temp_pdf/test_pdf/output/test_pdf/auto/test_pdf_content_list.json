@@ -1,0 +1,151 @@
+[
+    {
+        "type": "text",
+        "text": "[0293] Synthetic Example E: Synthesis of Example 71",
+        "bbox": [
+            101,
+            115,
+            632,
+            133
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/5039559eabfae9db0320f50b8e7fdd97345bd0c030cd454194e9c355f8c0cc71.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            223,
+            139,
+            774,
+            229
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "[0294] Aniline (22 mg, 0.241 mmol) and pyridine (0.097 mL,1.20 mmol) are suspended in CHCl (5 mL) and cooled to $0 ~ ^ { \\circ } \\mathbf C$ and stirred for 5 minutes. To the reaction mixture R-9 (50 mg, 0.24l mmol) is added and the reaction mixture is stirred for 1O minutes. The reaction mixture is concentrated in vacuo. The crude product is purified by preparative HPLC to afford Example 71 (22 mg, 35%).",
+        "bbox": [
+            99,
+            236,
+            898,
+            354
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "[0295] Synthetic Example F: Synthesis of Example 11",
+        "bbox": [
+            101,
+            360,
+            631,
+            378
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/8d4db9fc1ecab38952434e992d18379864cfb8484fe19839c760545b5edf8a5b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            146,
+            384,
+            853,
+            480
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "[0296] R-10 (50 mg, 0.359 mmol), R-11 (69 uL, 0.539 mmol) are dissolved in CHCl (2 mL). Triethylamine (0.15 mL,1.08 mmol) is added and the reaction mixture is stirred at room temperature for 17 hrs. The mixture is washed with water (2 mL) then passed through a Telos phase separator. Additional $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$ (2 mL) is passed through the phase separator. The combined organic layers are concentrated in vacuo to give the crude product. The crude material is purified by preparative HPLC to afford Example 11 (6.0 mg, 5.9%).",
+        "bbox": [
+            99,
+            486,
+            898,
+            629
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "[0297] The following examples are prepared in similar fashion from the appropriate aniline and sulphonyl chloride: Examples 17, 195, and 207-209.",
+        "bbox": [
+            101,
+            633,
+            897,
+            677
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Synthetic Example G: Synthesis of Example 23",
+        "bbox": [
+            222,
+            683,
+            638,
+            701
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/83357ea94c578ecaf1d616b7dca1c120484a02149d0d17406987a7b5454dc14e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            104,
+            707,
+            895,
+            788
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "[0299] R-12 (5.00 g, 20.6 mmol), riethylamine (8.6 mL, 61.8 mmol) and R-13 (2.29 g, 20.6 mmol) are suspended in DMF (1O mL). The reaction mixture is sealed under a nitrogen atmosphere and stirred at $8 0 ~ ^ { \\circ } \\mathrm { C }$ for 1 hour then cooled to room temperature and partitioned",
+        "bbox": [
+            101,
+            795,
+            898,
+            864
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "WO 2020/252229",
+        "bbox": [
+            141,
+            47,
+            272,
+            60
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "PCT/US2020/037378",
+        "bbox": [
+            707,
+            47,
+            863,
+            60
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "98",
+        "bbox": [
+            483,
+            935,
+            505,
+            948
+        ],
+        "page_idx": 0
+    }
+]

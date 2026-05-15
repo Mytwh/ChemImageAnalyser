@@ -1,0 +1,968 @@
+{
+    "pdf_info": [
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        61,
+                        96,
+                        376,
+                        113
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                61,
+                                96,
+                                376,
+                                113
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        96,
+                                        376,
+                                        113
+                                    ],
+                                    "type": "text",
+                                    "content": "[0293] Synthetic Example E: Synthesis of Example 71"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        134,
+                        117,
+                        232,
+                        162
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                134,
+                                117,
+                                232,
+                                162
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        134,
+                                        117,
+                                        232,
+                                        162
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                134,
+                                                117,
+                                                232,
+                                                162
+                                            ],
+                                            "type": "image",
+                                            "image_path": "4760106fe58fc744b8af873782f6f8828ec8f6ad6199b69bd342af1c9e15c27f.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        238,
+                        125,
+                        324,
+                        163
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                238,
+                                125,
+                                324,
+                                163
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        238,
+                                        125,
+                                        324,
+                                        163
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                238,
+                                                125,
+                                                324,
+                                                163
+                                            ],
+                                            "type": "image",
+                                            "image_path": "644c1339f4baafb99432c2c4d491a6ccd50c641435f7c7de3aacea2b22eb095c.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 4,
+                            "angle": 0,
+                            "type": "image_body"
+                        },
+                        {
+                            "bbox": [
+                                160,
+                                179,
+                                179,
+                                191
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        160,
+                                        179,
+                                        179,
+                                        191
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                160,
+                                                179,
+                                                179,
+                                                191
+                                            ],
+                                            "type": "text",
+                                            "content": "R-9"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 5,
+                            "angle": 0,
+                            "type": "image_caption"
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        336,
+                        116,
+                        459,
+                        175
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                336,
+                                116,
+                                459,
+                                175
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        336,
+                                        116,
+                                        459,
+                                        175
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                336,
+                                                116,
+                                                459,
+                                                175
+                                            ],
+                                            "type": "image",
+                                            "image_path": "acbccffe70ad037c176deb56e93f4d9469556b7a25b27f21a23062154bf182ed.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 6,
+                            "angle": 0,
+                            "type": "image_body"
+                        },
+                        {
+                            "bbox": [
+                                362,
+                                179,
+                                390,
+                                190
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        362,
+                                        179,
+                                        390,
+                                        190
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                362,
+                                                179,
+                                                390,
+                                                190
+                                            ],
+                                            "type": "text",
+                                            "content": "Ex 71"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 7,
+                            "angle": 0,
+                            "type": "image_caption"
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        59,
+                        199,
+                        532,
+                        296
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                199,
+                                532,
+                                296
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        199,
+                                        532,
+                                        296
+                                    ],
+                                    "type": "text",
+                                    "content": "[0294] Aniline (22 mg, 0.241 mmol) and pyridine (0.097 mL, 1.20 mmol) are suspended in "
+                                },
+                                {
+                                    "bbox": [
+                                        59,
+                                        199,
+                                        532,
+                                        296
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\mathrm{CH}_2\\mathrm{Cl}_2"
+                                },
+                                {
+                                    "bbox": [
+                                        59,
+                                        199,
+                                        532,
+                                        296
+                                    ],
+                                    "type": "text",
+                                    "content": " (5 mL) and cooled to "
+                                },
+                                {
+                                    "bbox": [
+                                        59,
+                                        199,
+                                        532,
+                                        296
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "0^{\\circ}\\mathrm{C}"
+                                },
+                                {
+                                    "bbox": [
+                                        59,
+                                        199,
+                                        532,
+                                        296
+                                    ],
+                                    "type": "text",
+                                    "content": " and stirred for 5 minutes. To the reaction mixture R-9 (50 mg, 0.241 mmol) is added and the reaction mixture is stirred for 10 minutes. The reaction mixture is concentrated in vacuo. The crude product is purified by preparative HPLC to afford Example 71 (22 mg, 35%)."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        61,
+                        302,
+                        374,
+                        318
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                61,
+                                302,
+                                374,
+                                318
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        302,
+                                        374,
+                                        318
+                                    ],
+                                    "type": "text",
+                                    "content": "[0295] Synthetic Example F: Synthesis of Example 11"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        87,
+                        324,
+                        188,
+                        372
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                87,
+                                324,
+                                188,
+                                372
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        324,
+                                        188,
+                                        372
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                87,
+                                                324,
+                                                188,
+                                                372
+                                            ],
+                                            "type": "image",
+                                            "image_path": "6be479af110e97206eae49405d1cbd0e949f4183fd08e52d30148dd8e05386a9.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 10,
+                            "angle": 0,
+                            "type": "image_body"
+                        },
+                        {
+                            "bbox": [
+                                109,
+                                389,
+                                134,
+                                401
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        109,
+                                        389,
+                                        134,
+                                        401
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                109,
+                                                389,
+                                                134,
+                                                401
+                                            ],
+                                            "type": "text",
+                                            "content": "R-10"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 11,
+                            "angle": 0,
+                            "type": "image_caption"
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        200,
+                        323,
+                        265,
+                        371
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                200,
+                                323,
+                                265,
+                                371
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        323,
+                                        265,
+                                        371
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                200,
+                                                323,
+                                                265,
+                                                371
+                                            ],
+                                            "type": "image",
+                                            "image_path": "f1b5403fde759f806bdb2ff8d0310ab5341c2d0fe031ae05e931e34194bc1280.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 12,
+                            "angle": 0,
+                            "type": "image_body"
+                        },
+                        {
+                            "bbox": [
+                                228,
+                                391,
+                                251,
+                                402
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        228,
+                                        391,
+                                        251,
+                                        402
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                228,
+                                                391,
+                                                251,
+                                                402
+                                            ],
+                                            "type": "text",
+                                            "content": "R-11"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 13,
+                            "angle": 0,
+                            "type": "image_caption"
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        286,
+                        326,
+                        371,
+                        369
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                286,
+                                326,
+                                371,
+                                369
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        326,
+                                        371,
+                                        369
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                286,
+                                                326,
+                                                371,
+                                                369
+                                            ],
+                                            "type": "image",
+                                            "image_path": "5672fb1acd63b2b10587c1d826a7608c312fbafd3e979b9c134b85d59293b4be.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 14,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 14
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        389,
+                        322,
+                        506,
+                        381
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                389,
+                                322,
+                                506,
+                                381
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        389,
+                                        322,
+                                        506,
+                                        381
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                389,
+                                                322,
+                                                506,
+                                                381
+                                            ],
+                                            "type": "image",
+                                            "image_path": "1d27521cc0d4eb27a8f0253b836d911189e8102ae61c669fe95422b359a3c4a8.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 15,
+                            "angle": 0,
+                            "type": "image_body"
+                        },
+                        {
+                            "bbox": [
+                                410,
+                                385,
+                                438,
+                                396
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        410,
+                                        385,
+                                        438,
+                                        396
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                410,
+                                                385,
+                                                438,
+                                                396
+                                            ],
+                                            "type": "text",
+                                            "content": "Ex 11"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 16,
+                            "angle": 0,
+                            "type": "image_caption"
+                        }
+                    ],
+                    "index": 15
+                },
+                {
+                    "bbox": [
+                        59,
+                        408,
+                        533,
+                        591
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 20,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                59,
+                                408,
+                                533,
+                                527
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        408,
+                                        533,
+                                        527
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                59,
+                                                408,
+                                                533,
+                                                527
+                                            ],
+                                            "type": "text",
+                                            "content": "[0296] R-10 (50 mg, 0.359 mmol), R-11 (69 uL, 0.539 mmol) are dissolved in "
+                                        },
+                                        {
+                                            "bbox": [
+                                                59,
+                                                408,
+                                                533,
+                                                527
+                                            ],
+                                            "type": "inline_equation",
+                                            "content": "\\mathrm{CH_2Cl_2}"
+                                        },
+                                        {
+                                            "bbox": [
+                                                59,
+                                                408,
+                                                533,
+                                                527
+                                            ],
+                                            "type": "text",
+                                            "content": " (2 mL). Triethylamine (0.15 mL, 1.08 mmol) is added and the reaction mixture is stirred at room temperature for 17 hrs. The mixture is washed with water (2 mL) then passed through a Telos phase separator. Additional "
+                                        },
+                                        {
+                                            "bbox": [
+                                                59,
+                                                408,
+                                                533,
+                                                527
+                                            ],
+                                            "type": "inline_equation",
+                                            "content": "\\mathrm{CH_2Cl_2}"
+                                        },
+                                        {
+                                            "bbox": [
+                                                59,
+                                                408,
+                                                533,
+                                                527
+                                            ],
+                                            "type": "text",
+                                            "content": " (2 mL) is passed through the phase separator. The combined organic layers are concentrated in vacuo to give the crude product. The crude material is purified by preparative HPLC to afford Example 11 (6.0 mg, 5.9%)."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "bbox": [
+                                60,
+                                533,
+                                532,
+                                570
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        60,
+                                        533,
+                                        532,
+                                        570
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                60,
+                                                533,
+                                                532,
+                                                570
+                                            ],
+                                            "type": "text",
+                                            "content": "[0297] The following examples are prepared in similar fashion from the appropriate aniline and sulphonyl chloride: Examples 17, 195, and 207-209."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "bbox": [
+                                61,
+                                575,
+                                377,
+                                591
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        575,
+                                        377,
+                                        591
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                61,
+                                                575,
+                                                377,
+                                                591
+                                            ],
+                                            "type": "text",
+                                            "content": "[0298] Synthetic Example G: Synthesis of Example 23"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 19
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        62,
+                        594,
+                        532,
+                        661
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                62,
+                                594,
+                                532,
+                                661
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        62,
+                                        594,
+                                        532,
+                                        661
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                62,
+                                                594,
+                                                532,
+                                                661
+                                            ],
+                                            "type": "image",
+                                            "image_path": "2ddb117c79c88d51f869978f35a5d5384a03b17045a36aeffa7ccf2beaa2019b.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 21,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 21
+                },
+                {
+                    "bbox": [
+                        60,
+                        668,
+                        532,
+                        726
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                60,
+                                668,
+                                532,
+                                726
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        60,
+                                        668,
+                                        532,
+                                        726
+                                    ],
+                                    "type": "text",
+                                    "content": "[0299] R-12 (5.00 g, 20.6 mmol), triethylamine (8.6 mL, 61.8 mmol) and R-13 (2.29 g, 20.6 mmol) are suspended in DMF (10 mL). The reaction mixture is sealed under a nitrogen atmosphere and stirred at 80 °C for 1 hour then cooled to room temperature and partitioned"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        84,
+                        39,
+                        162,
+                        50
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                84,
+                                39,
+                                162,
+                                50
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        39,
+                                        162,
+                                        50
+                                    ],
+                                    "type": "text",
+                                    "content": "WO 2020/252229"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        419,
+                        39,
+                        512,
+                        50
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                419,
+                                39,
+                                512,
+                                50
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        419,
+                                        39,
+                                        512,
+                                        50
+                                    ],
+                                    "type": "text",
+                                    "content": "PCT/US2020/037378"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        286,
+                        787,
+                        299,
+                        797
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                286,
+                                787,
+                                299,
+                                797
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        787,
+                                        299,
+                                        797
+                                    ],
+                                    "type": "text",
+                                    "content": "98"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23
+                }
+            ],
+            "page_size": [
+                594,
+                841
+            ],
+            "page_idx": 0
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": true,
+    "_vlm_ocr_enable": true,
+    "_version_name": "3.0.9"
+}

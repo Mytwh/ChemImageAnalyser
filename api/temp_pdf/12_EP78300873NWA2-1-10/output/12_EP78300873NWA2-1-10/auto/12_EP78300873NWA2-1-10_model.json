@@ -1,0 +1,6614 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.6701,
+                "bbox": [
+                    240,
+                    1730,
+                    281,
+                    2061
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.676,
+                "bbox": [
+                    278,
+                    177,
+                    318,
+                    220
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.8683,
+                "bbox": [
+                    335,
+                    130,
+                    455,
+                    264
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.951,
+                "bbox": [
+                    466,
+                    130,
+                    853,
+                    271
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.6432,
+                "bbox": [
+                    941,
+                    175,
+                    1209,
+                    217
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7065,
+                "bbox": [
+                    1344,
+                    168,
+                    1585,
+                    264
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.9374,
+                "bbox": [
+                    658,
+                    351,
+                    1218,
+                    397
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.686,
+                "bbox": [
+                    282,
+                    359,
+                    323,
+                    401
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9299,
+                "bbox": [
+                    282,
+                    460,
+                    694,
+                    502
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9145,
+                "bbox": [
+                    283,
+                    517,
+                    582,
+                    558
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9394,
+                "bbox": [
+                    278,
+                    777,
+                    655,
+                    842
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9509,
+                "bbox": [
+                    280,
+                    888,
+                    685,
+                    953
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9425,
+                "bbox": [
+                    279,
+                    972,
+                    652,
+                    1036
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9561,
+                "bbox": [
+                    280,
+                    1212,
+                    743,
+                    1308
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.98,
+                "bbox": [
+                    940,
+                    455,
+                    1594,
+                    701
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9644,
+                "bbox": [
+                    947,
+                    779,
+                    1340,
+                    872
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.963,
+                "bbox": [
+                    948,
+                    889,
+                    1392,
+                    981
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9651,
+                "bbox": [
+                    948,
+                    1000,
+                    1304,
+                    1094
+                ],
+                "index": 18
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.962,
+                "bbox": [
+                    948,
+                    1111,
+                    1385,
+                    1203
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9646,
+                "bbox": [
+                    947,
+                    1216,
+                    1523,
+                    1309
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9491,
+                "bbox": [
+                    280,
+                    1370,
+                    1388,
+                    1409
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8876,
+                "bbox": [
+                    279,
+                    1425,
+                    921,
+                    1485
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.591,
+                "bbox": [
+                    356,
+                    1500,
+                    417,
+                    1533
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9697,
+                "bbox": [
+                    492,
+                    1463,
+                    872,
+                    1623
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8987,
+                "bbox": [
+                    281,
+                    1621,
+                    926,
+                    2046
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9345,
+                "bbox": [
+                    823,
+                    2183,
+                    1082,
+                    2211
+                ],
+                "index": 26
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    228,
+                    1723,
+                    299,
+                    2074
+                ],
+                "score": 0.734,
+                "text": "20 004 200 4"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    277,
+                    177,
+                    319,
+                    221
+                ],
+                "score": 0.693,
+                "text": "?"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    281,
+                    357,
+                    326,
+                    406
+                ],
+                "score": 0.712,
+                "text": "?"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    347,
+                    1495,
+                    425,
+                    1541
+                ],
+                "score": 0.794,
+                "text": "(II）"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    470,
+                    134,
+                    799,
+                    169
+                ],
+                "score": 0.992,
+                "text": "Europaisches Patentamt"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    471,
+                    184,
+                    783,
+                    219
+                ],
+                "score": 0.995,
+                "text": "European Patent Office"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    470,
+                    233,
+                    852,
+                    271
+                ],
+                "score": 0.988,
+                "text": "Office europeen des brevets"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    952,
+                    780,
+                    1335,
+                    818
+                ],
+                "score": 0.952,
+                "text": "2 inventor: Ponsford, Roger John"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    992,
+                    809,
+                    1340,
+                    843
+                ],
+                "score": 0.99,
+                "text": "5 Copse Close Wimblehurst Park"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    994,
+                    835,
+                    1229,
+                    870
+                ],
+                "score": 0.981,
+                "text": "Horsham Sussex(GB)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    950,
+                    999,
+                    1304,
+                    1038
+                ],
+                "score": 0.964,
+                "text": "② Inventor: Southgate, Robert"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    992,
+                    1028,
+                    1143,
+                    1063
+                ],
+                "score": 0.985,
+                "text": "7 Tillets Lane"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    995,
+                    1056,
+                    1291,
+                    1092
+                ],
+                "score": 0.996,
+                "text": "Warnham West Sussex(GB)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    941,
+                    175,
+                    1212,
+                    219
+                ],
+                "score": 0.983,
+                "text": " Publication number:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1337,
+                    160,
+                    1592,
+                    220
+                ],
+                "score": 0.989,
+                "text": "0 003 740"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1337,
+                    214,
+                    1411,
+                    270
+                ],
+                "score": 1.0,
+                "text": "A2"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    659,
+                    351,
+                    1219,
+                    399
+                ],
+                "score": 0.994,
+                "text": "EUROPEAN PATENT APPLICATION"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    283,
+                    462,
+                    694,
+                    499
+                ],
+                "score": 0.956,
+                "text": "? Application number: 78300873.3"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    278,
+                    779,
+                    655,
+                    817
+                ],
+                "score": 0.98,
+                "text": "③Priority:19.01.78 GB 216678"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    326,
+                    809,
+                    558,
+                    841
+                ],
+                "score": 0.982,
+                "text": "14.03.78 GB 998578"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    285,
+                    890,
+                    685,
+                    925
+                ],
+                "score": 0.984,
+                "text": " Date of publication of application:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    325,
+                    920,
+                    609,
+                    951
+                ],
+                "score": 0.972,
+                "text": "05.09.79 Bulletin 79/18"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    324,
+                    974,
+                    650,
+                    1008
+                ],
+                "score": 0.988,
+                "text": "Designated contracting states:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    326,
+                    1004,
+                    576,
+                    1033
+                ],
+                "score": 0.955,
+                "text": "BE CH DE FR GB NL"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    282,
+                    517,
+                    581,
+                    556
+                ],
+                "score": 0.973,
+                "text": "Date offiling:20.12.78"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    277,
+                    1208,
+                    749,
+                    1262
+                ],
+                "score": 0.966,
+                "text": " Applicant: BEECHAM GROUP LIMITED"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    327,
+                    1247,
+                    688,
+                    1278
+                ],
+                "score": 0.998,
+                "text": "Beecham House Great West Road"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    328,
+                    1274,
+                    607,
+                    1306
+                ],
+                "score": 0.97,
+                "text": "Brentford, Middlesex(GB)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    940,
+                    455,
+                    1344,
+                    499
+                ],
+                "score": 0.928,
+                "text": " int.Ci.2: C 07 D 487/04"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1079,
+                    487,
+                    1596,
+                    534
+                ],
+                "score": 0.968,
+                "text": "A 61_K 31/40,C 07 C 149/24"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1082,
+                    520,
+                    1503,
+                    568
+                ],
+                "score": 0.982,
+                "text": "//C07D205/08,C07F9/65,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1083,
+                    553,
+                    1464,
+                    598
+                ],
+                "score": 0.929,
+                "text": "C07F1/10,C07C149/20,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1084,
+                    587,
+                    1505,
+                    631
+                ],
+                "score": 0.988,
+                "text": "C07C149/18,C07D327/06,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1085,
+                    622,
+                    1571,
+                    666
+                ],
+                "score": 0.982,
+                "text": "(C07D487/04,209/00,205/00),"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1086,
+                    656,
+                    1401,
+                    700
+                ],
+                "score": 0.993,
+                "text": "(A61K31/40,31/43)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    952,
+                    888,
+                    1391,
+                    929
+                ],
+                "score": 0.966,
+                "text": "? Inventor: Baxter, Andrew John Gilby"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    991,
+                    916,
+                    1235,
+                    952
+                ],
+                "score": 0.984,
+                "text": "3 Albina Garth Medon"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    994,
+                    945,
+                    1254,
+                    979
+                ],
+                "score": 0.955,
+                "text": "Hull N. Humberside(GB)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    950,
+                    1109,
+                    1384,
+                    1150
+                ],
+                "score": 0.962,
+                "text": "2 inventor: Roberts,Patricia Margaret"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    994,
+                    1139,
+                    1211,
+                    1173
+                ],
+                "score": 0.988,
+                "text": "15 Bakehouse Road"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    993,
+                    1166,
+                    1198,
+                    1203
+                ],
+                "score": 0.96,
+                "text": "Horiey Surrey(GB)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    950,
+                    1214,
+                    1454,
+                    1256
+                ],
+                "score": 0.917,
+                "text": "C4) Representative: Cole, William Gwyn et al,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    992,
+                    1246,
+                    1521,
+                    1281
+                ],
+                "score": 0.985,
+                "text": " Beecham Pharmaceuticals Yew Tree Bottom Road"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    994,
+                    1272,
+                    1306,
+                    1309
+                ],
+                "score": 0.96,
+                "text": "Epsom Surrey KT18 5XQ(GB)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    281,
+                    1368,
+                    1391,
+                    1411
+                ],
+                "score": 0.972,
+                "text": "@ Beta-iactam antibiotics, a process for their preparation and their use in pharmaceutical compositions."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    281,
+                    1426,
+                    922,
+                    1464
+                ],
+                "score": 0.976,
+                "text": "? The present invention provides the antibacterial agents"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    283,
+                    1456,
+                    478,
+                    1485
+                ],
+                "score": 0.898,
+                "text": "ofthe formula (l):"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    283,
+                    1622,
+                    924,
+                    1653
+                ],
+                "score": 0.961,
+                "text": "Wherein R1 is a group such that CO2R1 is a carboxylic acid"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    283,
+                    1651,
+                    926,
+                    1681
+                ],
+                "score": 0.969,
+                "text": "group or a salt thereof or_is a group of the formula CO2Rl"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    281,
+                    1675,
+                    929,
+                    1706
+                ],
+                "score": 0.942,
+                "text": "wherein Rlis a group such that CO2Ris an ester group."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    274,
+                    1704,
+                    925,
+                    1734
+                ],
+                "score": 0.962,
+                "text": "'R2 is a hydrogen atom or a lower alkyl group; R3 is a hydro-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    275,
+                    1732,
+                    924,
+                    1762
+                ],
+                "score": 0.946,
+                "text": "'gen atom or a lower alkyl group; and R4 is a phenyi group or a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    283,
+                    1762,
+                    924,
+                    1788
+                ],
+                "score": 0.979,
+                "text": "phenyl group substituted by one or two groups selected from"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    283,
+                    1787,
+                    924,
+                    1821
+                ],
+                "score": 0.938,
+                "text": "fluorine, chlorine, OR5, NH.CO.Rs,NH.CO2R5 or CO2R5 where"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    283,
+                    1816,
+                    925,
+                    1850
+                ],
+                "score": 0.977,
+                "text": "Rs is a iower alkyi or benzyl group or R4 is a hydrogen atom"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    284,
+                    1844,
+                    926,
+                    1877
+                ],
+                "score": 0.944,
+                "text": "Or lower alkyl group or R. is a CO2Rs group where Rs is a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    283,
+                    1868,
+                    928,
+                    1909
+                ],
+                "score": 0.967,
+                "text": "lower alkyl group or benzyl group or R4 is a NH.COnRe group"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    285,
+                    1898,
+                    926,
+                    1934
+                ],
+                "score": 0.968,
+                "text": "where Rs is a lower alkyl group, a phenyl group or a phenyl"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    285,
+                    1930,
+                    925,
+                    1961
+                ],
+                "score": 0.987,
+                "text": "group substituted by one or two halogen atoms, lower alkyl"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    284,
+                    1958,
+                    924,
+                    1989
+                ],
+                "score": 0.977,
+                "text": "or iower alkoxyl groups; and n is 1 or 2. A process for their"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    278,
+                    1986,
+                    925,
+                    2016
+                ],
+                "score": 0.981,
+                "text": ":preparation and their use in pharmaceutical compositions is"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    279,
+                    2012,
+                    451,
+                    2043
+                ],
+                "score": 0.986,
+                "text": "also described."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    823,
+                    2181,
+                    1084,
+                    2213
+                ],
+                "score": 0.975,
+                "text": "Croydon Printing Company Ltd."
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1729,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9451,
+                "bbox": [
+                    1307,
+                    110,
+                    1522,
+                    166
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8094,
+                "bbox": [
+                    216,
+                    1460,
+                    251,
+                    1502
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8255,
+                "bbox": [
+                    221,
+                    1710,
+                    269,
+                    1750
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7925,
+                "bbox": [
+                    946,
+                    630,
+                    986,
+                    667
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7486,
+                "bbox": [
+                    583,
+                    730,
+                    1463,
+                    844
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9686,
+                "bbox": [
+                    388,
+                    899,
+                    1466,
+                    998
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9748,
+                "bbox": [
+                    631,
+                    1029,
+                    1267,
+                    1302
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 11,
+                "label": "formula_number",
+                "score": 0.8363,
+                "bbox": [
+                    1441,
+                    1194,
+                    1502,
+                    1242
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9869,
+                "bbox": [
+                    388,
+                    1353,
+                    1625,
+                    1759
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9636,
+                "bbox": [
+                    393,
+                    1806,
+                    1471,
+                    1907
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9533,
+                "bbox": [
+                    704,
+                    1970,
+                    1199,
+                    2170
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 11,
+                "label": "formula_number",
+                "score": 0.7079,
+                "bbox": [
+                    1449,
+                    2006,
+                    1528,
+                    2055
+                ],
+                "index": 12
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    214,
+                    1463,
+                    257,
+                    1506
+                ],
+                "score": 1.0,
+                "text": "5"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    215,
+                    1707,
+                    275,
+                    1758
+                ],
+                "score": 1.0,
+                "text": "10"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    952,
+                    631,
+                    983,
+                    672
+                ],
+                "score": 0.998,
+                "text": "1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1432,
+                    1190,
+                    1511,
+                    1251
+                ],
+                "score": 0.847,
+                "text": "(I)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1439,
+                    1999,
+                    1540,
+                    2063
+                ],
+                "score": 0.967,
+                "text": "(II)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1304,
+                    107,
+                    1527,
+                    172
+                ],
+                "score": 1.0,
+                "text": "0003740"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    585,
+                    727,
+                    1427,
+                    775
+                ],
+                "score": 0.986,
+                "text": "β-Lactam Antibiotics,A Process for their"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    589,
+                    764,
+                    1463,
+                    809
+                ],
+                "score": 0.987,
+                "text": "Preparation and their Use in Pharmaceutical"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    872,
+                    800,
+                    1150,
+                    842
+                ],
+                "score": 0.995,
+                "text": "Compositions."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    507,
+                    894,
+                    1465,
+                    948
+                ],
+                "score": 0.986,
+                "text": "British Patent No. 1,483,142 discloses that the"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    390,
+                    953,
+                    961,
+                    991
+                ],
+                "score": 0.996,
+                "text": "compound of the formula (I):"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    520,
+                    1807,
+                    1469,
+                    1853
+                ],
+                "score": 0.988,
+                "text": "Accordingly the present invention provides the"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    397,
+                    1862,
+                    1013,
+                    1900
+                ],
+                "score": 0.997,
+                "text": "compounds of the formula (II):"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    393,
+                    1352,
+                    1527,
+                    1402
+                ],
+                "score": 0.984,
+                "text": "wherein Z is HozS and its salts may be obtained by ferm-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    395,
+                    1405,
+                    1469,
+                    1450
+                ],
+                "score": 0.992,
+                "text": "entation of strains of Streptomyces olivaceus. Danish"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    393,
+                    1453,
+                    1548,
+                    1501
+                ],
+                "score": 0.986,
+                "text": "Patent Application No. 984/78 discloses that the compound"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    398,
+                    1505,
+                    1466,
+                    1549
+                ],
+                "score": 0.994,
+                "text": "of the formula (I) wherein Z is H and its salts could"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    397,
+                    1555,
+                    1626,
+                    1603
+                ],
+                "score": 0.999,
+                "text": "also be obtained by fermentation of strains of that organism."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    395,
+                    1607,
+                    1567,
+                    1651
+                ],
+                "score": 0.994,
+                "text": "We have found that a distinct class of synthetic antibact-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    397,
+                    1653,
+                    1473,
+                    1707
+                ],
+                "score": 0.999,
+                "text": "erial agents which contain a β-lactam ring fused to a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    397,
+                    1710,
+                    1029,
+                    1752
+                ],
+                "score": 0.992,
+                "text": "pyrroline ring may be prepared."
+            }
+        ],
+        "page_info": {
+            "page_no": 1,
+            "width": 1729,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8342,
+                "bbox": [
+                    324,
+                    778,
+                    367,
+                    814
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.7822,
+                "bbox": [
+                    342,
+                    527,
+                    367,
+                    562
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8444,
+                "bbox": [
+                    324,
+                    1029,
+                    366,
+                    1065
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.7889,
+                "bbox": [
+                    323,
+                    1285,
+                    368,
+                    1318
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9454,
+                "bbox": [
+                    1369,
+                    83,
+                    1581,
+                    135
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8342,
+                "bbox": [
+                    319,
+                    1539,
+                    362,
+                    1575
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8516,
+                "bbox": [
+                    964,
+                    221,
+                    1005,
+                    253
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8967,
+                "bbox": [
+                    607,
+                    325,
+                    654,
+                    369
+                ],
+                "index": 8,
+                "latex": "\\mathtt { R _ { 1 } }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9111,
+                "bbox": [
+                    1090,
+                    324,
+                    1193,
+                    370
+                ],
+                "index": 9,
+                "latex": "\\mathtt { c o } _ { 2 } \\mathtt { R } _ { 1 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9356,
+                "bbox": [
+                    608,
+                    411,
+                    718,
+                    472
+                ],
+                "index": 10,
+                "latex": "\\mathsf { c o } _ { 2 } \\mathtt { R } _ { 1 } ^ { 1 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8961,
+                "bbox": [
+                    888,
+                    408,
+                    939,
+                    471
+                ],
+                "index": 11,
+                "latex": "\\mathtt { R } _ { \\mathtt { I } } ^ { \\mathtt { I } }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9282,
+                "bbox": [
+                    1374,
+                    408,
+                    1482,
+                    473
+                ],
+                "index": 12,
+                "latex": "\\mathsf { c o } _ { 2 } \\mathsf { R } _ { 1 } ^ { 1 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9002,
+                "bbox": [
+                    770,
+                    478,
+                    815,
+                    522
+                ],
+                "index": 13,
+                "latex": "\\mathtt { R } _ { 2 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8971,
+                "bbox": [
+                    589,
+                    530,
+                    634,
+                    570
+                ],
+                "index": 14,
+                "latex": "\\mathtt { R } _ { 3 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9046,
+                "bbox": [
+                    524,
+                    579,
+                    571,
+                    621
+                ],
+                "index": 15,
+                "latex": "\\mathtt { R _ { 4 } }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7976,
+                "bbox": [
+                    445,
+                    678,
+                    512,
+                    721
+                ],
+                "index": 16,
+                "latex": "{ \\tt O R } _ { 5 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7476,
+                "bbox": [
+                    669,
+                    678,
+                    716,
+                    722
+                ],
+                "index": 17,
+                "latex": "R _ { 5 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8978,
+                "bbox": [
+                    748,
+                    780,
+                    796,
+                    822
+                ],
+                "index": 18,
+                "latex": "\\mathtt { R _ { 4 } }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8849,
+                "bbox": [
+                    812,
+                    677,
+                    915,
+                    723
+                ],
+                "index": 19,
+                "latex": "\\mathtt { c o } _ { 2 } \\mathtt { R } _ { 5 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9581,
+                "bbox": [
+                    436,
+                    320,
+                    1560,
+                    1020
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8768,
+                "bbox": [
+                    948,
+                    729,
+                    996,
+                    772
+                ],
+                "index": 21,
+                "latex": "R _ { 4 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9165,
+                "bbox": [
+                    909,
+                    779,
+                    1015,
+                    824
+                ],
+                "index": 22,
+                "latex": "C O _ { 2 } R _ { 5 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9089,
+                "bbox": [
+                    991,
+                    676,
+                    1094,
+                    721
+                ],
+                "index": 23,
+                "latex": "\\mathtt { c o } _ { 2 } \\mathtt { R } _ { 5 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8982,
+                "bbox": [
+                    1230,
+                    678,
+                    1277,
+                    720
+                ],
+                "index": 24,
+                "latex": "\\mathtt { R } _ { 5 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8961,
+                "bbox": [
+                    1069,
+                    829,
+                    1116,
+                    875
+                ],
+                "index": 25,
+                "latex": "\\mathtt { R _ { 4 } }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8979,
+                "bbox": [
+                    565,
+                    880,
+                    613,
+                    926
+                ],
+                "index": 26,
+                "latex": "\\mathtt { R _ { 6 } }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8969,
+                "bbox": [
+                    1270,
+                    779,
+                    1317,
+                    823
+                ],
+                "index": 27,
+                "latex": "R _ { 5 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.883,
+                "bbox": [
+                    1294,
+                    829,
+                    1398,
+                    874
+                ],
+                "index": 28,
+                "latex": "{ \\tt C O } _ { \\tt n } \\tt R _ { 6 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.524,
+                "bbox": [
+                    824,
+                    1027,
+                    1503,
+                    1065
+                ],
+                "index": 29
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7686,
+                "bbox": [
+                    438,
+                    1078,
+                    1378,
+                    1117
+                ],
+                "index": 30
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9507,
+                "bbox": [
+                    440,
+                    1127,
+                    1544,
+                    1269
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9092,
+                "bbox": [
+                    950,
+                    1130,
+                    1055,
+                    1176
+                ],
+                "index": 32,
+                "latex": "\\mathtt { c o } _ { 2 } \\mathtt { R } _ { 1 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9107,
+                "bbox": [
+                    442,
+                    1278,
+                    1544,
+                    1375
+                ],
+                "index": 33
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9103,
+                "bbox": [
+                    950,
+                    1282,
+                    1054,
+                    1327
+                ],
+                "index": 34,
+                "latex": "{ \\tt c o } _ { 2 } \\tt R _ { 1 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.913,
+                "bbox": [
+                    1230,
+                    1318,
+                    1338,
+                    1378
+                ],
+                "index": 35,
+                "latex": "\\mathsf { c o } _ { 2 } \\mathsf { R } _ { 1 } ^ { 1 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5989,
+                "bbox": [
+                    824,
+                    1381,
+                    1502,
+                    1422
+                ],
+                "index": 36
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9286,
+                "bbox": [
+                    440,
+                    1432,
+                    1583,
+                    1525
+                ],
+                "index": 37
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6348,
+                "bbox": [
+                    436,
+                    1596,
+                    542,
+                    1629
+                ],
+                "index": 38
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9051,
+                "bbox": [
+                    1241,
+                    1552,
+                    1290,
+                    1597
+                ],
+                "index": 39,
+                "latex": "\\mathtt { R } _ { 2 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9642,
+                "bbox": [
+                    433,
+                    1650,
+                    1536,
+                    1752
+                ],
+                "index": 40
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8894,
+                "bbox": [
+                    961,
+                    1657,
+                    1010,
+                    1704
+                ],
+                "index": 41,
+                "latex": "R _ { 3 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9235,
+                "bbox": [
+                    558,
+                    1799,
+                    1491,
+                    1853
+                ],
+                "index": 42
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8979,
+                "bbox": [
+                    1001,
+                    1807,
+                    1054,
+                    1856
+                ],
+                "index": 43,
+                "latex": "R _ { 3 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9022,
+                "bbox": [
+                    745,
+                    1913,
+                    793,
+                    1957
+                ],
+                "index": 44,
+                "latex": "\\mathtt { R } _ { 4 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.922,
+                "bbox": [
+                    560,
+                    1902,
+                    1520,
+                    1954
+                ],
+                "index": 45
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    320,
+                    776,
+                    374,
+                    824
+                ],
+                "score": 0.989,
+                "text": "10"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    321,
+                    1029,
+                    371,
+                    1074
+                ],
+                "score": 0.999,
+                "text": "15"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    317,
+                    1280,
+                    375,
+                    1331
+                ],
+                "score": 1.0,
+                "text": "20"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    314,
+                    1537,
+                    368,
+                    1584
+                ],
+                "score": 1.0,
+                "text": "25"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    971,
+                    219,
+                    999,
+                    263
+                ],
+                "score": 0.713,
+                "text": "2"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1365,
+                    76,
+                    1587,
+                    144
+                ],
+                "score": 1.0,
+                "text": "0003740"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    825,
+                    1122,
+                    944,
+                    1176
+                ],
+                "score": 0.997,
+                "text": "Aptly"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1067,
+                    1122,
+                    1547,
+                    1172
+                ],
+                "score": 0.98,
+                "text": "in the compounds of the"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    442,
+                    1170,
+                    1468,
+                    1228
+                ],
+                "score": 0.989,
+                "text": "formula (II) represents a carboxylic acid group or"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    444,
+                    1230,
+                    755,
+                    1269
+                ],
+                "score": 0.999,
+                "text": "a salt thereof."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    825,
+                    1274,
+                    942,
+                    1328
+                ],
+                "score": 0.989,
+                "text": "Aptly"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1067,
+                    1274,
+                    1546,
+                    1327
+                ],
+                "score": 0.999,
+                "text": "in the compounds of the"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    445,
+                    1323,
+                    1221,
+                    1379
+                ],
+                "score": 0.987,
+                "text": "formula (II) represents an ester group"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    555,
+                    1656,
+                    955,
+                    1697
+                ],
+                "score": 0.999,
+                "text": "Favoured values for"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1019,
+                    1649,
+                    1537,
+                    1691
+                ],
+                "score": 0.979,
+                "text": "include the hydrogen atom"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    435,
+                    1708,
+                    872,
+                    1752
+                ],
+                "score": 0.985,
+                "text": "and the methyl group."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    343,
+                    532,
+                    369,
+                    567
+                ],
+                "score": 1.0,
+                "text": "5"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    443,
+                    322,
+                    603,
+                    360
+                ],
+                "score": 0.998,
+                "text": "wherein"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    663,
+                    321,
+                    1082,
+                    362
+                ],
+                "score": 1.0,
+                "text": "is a group such that"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1208,
+                    319,
+                    1526,
+                    364
+                ],
+                "score": 0.991,
+                "text": "is a carboxylic"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    445,
+                    371,
+                    1443,
+                    412
+                ],
+                "score": 0.982,
+                "text": "acid group or a salt thereof or is a group of the"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    445,
+                    423,
+                    597,
+                    461
+                ],
+                "score": 1.0,
+                "text": "formula"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    730,
+                    425,
+                    887,
+                    458
+                ],
+                "score": 1.0,
+                "text": "wherein"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    946,
+                    423,
+                    1365,
+                    460
+                ],
+                "score": 0.982,
+                "text": "is a group such that"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1491,
+                    422,
+                    1558,
+                    464
+                ],
+                "score": 0.938,
+                "text": "is."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    445,
+                    475,
+                    762,
+                    516
+                ],
+                "score": 0.981,
+                "text": "an ester group,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    827,
+                    471,
+                    1545,
+                    517
+                ],
+                "score": 0.992,
+                "text": "is a hydrogen atom or a lower alkyl"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    440,
+                    529,
+                    588,
+                    566
+                ],
+                "score": 0.945,
+                "text": "group;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    642,
+                    523,
+                    1499,
+                    568
+                ],
+                "score": 0.993,
+                "text": "is a hydrogen atom or a lower alkyl group;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    443,
+                    572,
+                    523,
+                    620
+                ],
+                "score": 0.999,
+                "text": "and"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    572,
+                    572,
+                    1546,
+                    620
+                ],
+                "score": 0.984,
+                "text": " is a phenyl group or a phenyl group substituted"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    439,
+                    622,
+                    1543,
+                    670
+                ],
+                "score": 0.983,
+                "text": "by one or two groups selected from fluorine， chlorine,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    513,
+                    677,
+                    668,
+                    715
+                ],
+                "score": 0.98,
+                "text": "，NH.CO."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    717,
+                    677,
+                    811,
+                    715
+                ],
+                "score": 0.974,
+                "text": "，NH."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    927,
+                    677,
+                    983,
+                    715
+                ],
+                "score": 0.998,
+                "text": "or"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1107,
+                    670,
+                    1224,
+                    715
+                ],
+                "score": 0.997,
+                "text": "where"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1283,
+                    671,
+                    1506,
+                    717
+                ],
+                "score": 0.999,
+                "text": "is a lower"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    445,
+                    724,
+                    942,
+                    767
+                ],
+                "score": 0.978,
+                "text": "alkyl or benzyi group or"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1008,
+                    722,
+                    1565,
+                    769
+                ],
+                "score": 0.998,
+                "text": "is a hydrogen atom or lower"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    443,
+                    774,
+                    747,
+                    820
+                ],
+                "score": 0.998,
+                "text": "alkyl group or"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    797,
+                    774,
+                    907,
+                    820
+                ],
+                "score": 0.999,
+                "text": "isa"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1028,
+                    778,
+                    1264,
+                    816
+                ],
+                "score": 1.0,
+                "text": "group where"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1325,
+                    773,
+                    1548,
+                    819
+                ],
+                "score": 0.996,
+                "text": "is a lower"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    443,
+                    825,
+                    1068,
+                    869
+                ],
+                "score": 0.987,
+                "text": "alkyl group or benzyl group or"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1117,
+                    825,
+                    1293,
+                    869
+                ],
+                "score": 0.989,
+                "text": "is a NH."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1410,
+                    830,
+                    1527,
+                    873
+                ],
+                "score": 1.0,
+                "text": "group"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    442,
+                    877,
+                    564,
+                    915
+                ],
+                "score": 1.0,
+                "text": "where"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    621,
+                    868,
+                    1516,
+                    927
+                ],
+                "score": 0.985,
+                "text": "is a lower alkyl group， a phenyl group or a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    439,
+                    923,
+                    1525,
+                    973
+                ],
+                "score": 0.989,
+                "text": "phenyl group substituted by one or two halogen atoms，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    445,
+                    977,
+                    1521,
+                    1017
+                ],
+                "score": 0.989,
+                "text": "lower alkyl or lower alkoxyl groups; and n is 1 or 2."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    827,
+                    1023,
+                    1501,
+                    1068
+                ],
+                "score": 0.976,
+                "text": "When used herein the term \"lower\""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    825,
+                    1375,
+                    1502,
+                    1428
+                ],
+                "score": 0.994,
+                "text": "Particularly suitable lower alkyl"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    439,
+                    1074,
+                    1380,
+                    1123
+                ],
+                "score": 0.997,
+                "text": "means the group contains up to 4 carbon atoms."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    558,
+                    1806,
+                    998,
+                    1850
+                ],
+                "score": 0.999,
+                "text": "A preferred value for"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1061,
+                    1798,
+                    1493,
+                    1844
+                ],
+                "score": 0.989,
+                "text": "is the hydrogen atom."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    562,
+                    1903,
+                    742,
+                    1958
+                ],
+                "score": 0.989,
+                "text": "Suitably"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    802,
+                    1904,
+                    1520,
+                    1947
+                ],
+                "score": 0.989,
+                "text": "is a phenyl group or a phenyl group"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    443,
+                    1430,
+                    1586,
+                    1479
+                ],
+                "score": 0.986,
+                "text": "groups include the methyl and ethyl groups. A preferred"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    443,
+                    1479,
+                    1217,
+                    1529
+                ],
+                "score": 1.0,
+                "text": "lower alkyl group is the methyl group."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    436,
+                    1593,
+                    546,
+                    1632
+                ],
+                "score": 1.0,
+                "text": "atom."
+            }
+        ],
+        "page_info": {
+            "page_no": 2,
+            "width": 1729,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.7807,
+                "bbox": [
+                    129,
+                    976,
+                    162,
+                    1021
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9398,
+                "bbox": [
+                    1250,
+                    36,
+                    1468,
+                    92
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8609,
+                "bbox": [
+                    824,
+                    228,
+                    869,
+                    267
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.824,
+                "bbox": [
+                    141,
+                    1843,
+                    189,
+                    1885
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7041,
+                "bbox": [
+                    510,
+                    364,
+                    581,
+                    417
+                ],
+                "index": 5,
+                "latex": "O R _ { 5 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5662,
+                "bbox": [
+                    608,
+                    360,
+                    785,
+                    415
+                ],
+                "index": 6,
+                "latex": "\\mathtt { N H . C O . R _ { 5 } }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8038,
+                "bbox": [
+                    815,
+                    359,
+                    988,
+                    413
+                ],
+                "index": 7,
+                "latex": "N _ { 1 } I _ { 0 } = 2 ^ { R _ { 5 } }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9048,
+                "bbox": [
+                    1061,
+                    360,
+                    1174,
+                    415
+                ],
+                "index": 8,
+                "latex": "C O _ { 2 ^ { R _ { 5 } } }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8664,
+                "bbox": [
+                    796,
+                    466,
+                    849,
+                    513
+                ],
+                "index": 9,
+                "latex": "\\mathtt { R } _ { 4 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9811,
+                "bbox": [
+                    299,
+                    307,
+                    1456,
+                    565
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8557,
+                "bbox": [
+                    979,
+                    416,
+                    1029,
+                    462
+                ],
+                "index": 11,
+                "latex": "R _ { 4 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8711,
+                "bbox": [
+                    960,
+                    464,
+                    1073,
+                    519
+                ],
+                "index": 12,
+                "latex": "c o _ { 2 ^ { R _ { 5 } } }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8661,
+                "bbox": [
+                    1307,
+                    362,
+                    1360,
+                    414
+                ],
+                "index": 13,
+                "latex": "R _ { 5 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8517,
+                "bbox": [
+                    1328,
+                    464,
+                    1381,
+                    517
+                ],
+                "index": 14,
+                "latex": "R _ { 5 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8859,
+                "bbox": [
+                    612,
+                    623,
+                    665,
+                    670
+                ],
+                "index": 15,
+                "latex": "\\mathtt { R } _ { 4 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9785,
+                "bbox": [
+                    306,
+                    617,
+                    1390,
+                    823
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.649,
+                "bbox": [
+                    777,
+                    620,
+                    953,
+                    672
+                ],
+                "index": 17,
+                "latex": "\\mathbb { N H . C O } _ { \\mathtt { n } ^ { \\mathtt { h } } 6 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8534,
+                "bbox": [
+                    1207,
+                    622,
+                    1262,
+                    669
+                ],
+                "index": 18,
+                "latex": "a _ { 6 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.974,
+                "bbox": [
+                    312,
+                    877,
+                    1494,
+                    1026
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9372,
+                "bbox": [
+                    616,
+                    1104,
+                    1232,
+                    1302
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 11,
+                "label": "formula_number",
+                "score": 0.8804,
+                "bbox": [
+                    1363,
+                    1150,
+                    1464,
+                    1198
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9205,
+                "bbox": [
+                    608,
+                    1315,
+                    1313,
+                    1517
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 11,
+                "label": "formula_number",
+                "score": 0.8253,
+                "bbox": [
+                    1384,
+                    1356,
+                    1464,
+                    1403
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8654,
+                "bbox": [
+                    487,
+                    1547,
+                    537,
+                    1593
+                ],
+                "index": 24,
+                "latex": "R _ { 1 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8808,
+                "bbox": [
+                    688,
+                    1547,
+                    742,
+                    1594
+                ],
+                "index": 25,
+                "latex": "n _ { 6 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9445,
+                "bbox": [
+                    321,
+                    1542,
+                    1516,
+                    1639
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7926,
+                "bbox": [
+                    445,
+                    1696,
+                    887,
+                    1741
+                ],
+                "index": 27
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9741,
+                "bbox": [
+                    324,
+                    1799,
+                    1479,
+                    1948
+                ],
+                "index": 28
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    129,
+                    980,
+                    163,
+                    1024
+                ],
+                "score": 1.0,
+                "text": "5"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    830,
+                    227,
+                    865,
+                    271
+                ],
+                "score": 0.988,
+                "text": "3"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    136,
+                    1840,
+                    196,
+                    1891
+                ],
+                "score": 1.0,
+                "text": "10"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1374,
+                    1348,
+                    1475,
+                    1412
+                ],
+                "score": 0.75,
+                "text": "(Iv）"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    448,
+                    1691,
+                    884,
+                    1743
+                ],
+                "score": 0.999,
+                "text": "Most suitably n is 1."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1248,
+                    32,
+                    1473,
+                    97
+                ],
+                "score": 1.0,
+                "text": "0003740"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    454,
+                    1798,
+                    1455,
+                    1842
+                ],
+                "score": 0.997,
+                "text": "Similarly it will be realised that other favoured"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    329,
+                    1850,
+                    1475,
+                    1896
+                ],
+                "score": 0.993,
+                "text": "compounds of this invention include those of the formula"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    330,
+                    1897,
+                    426,
+                    1949
+                ],
+                "score": 0.76,
+                "text": "(v):"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1356,
+                    1145,
+                    1474,
+                    1204
+                ],
+                "score": 0.881,
+                "text": "（III）"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    304,
+                    305,
+                    1461,
+                    354
+                ],
+                "score": 0.981,
+                "text": "substituted by one or two groups selected from fluorine，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    306,
+                    359,
+                    505,
+                    407
+                ],
+                "score": 0.998,
+                "text": "chlorine,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    786,
+                    381,
+                    804,
+                    405
+                ],
+                "score": 0.91,
+                "text": "，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    998,
+                    364,
+                    1056,
+                    404
+                ],
+                "score": 0.996,
+                "text": "or"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1185,
+                    361,
+                    1304,
+                    401
+                ],
+                "score": 0.999,
+                "text": "where"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1369,
+                    360,
+                    1424,
+                    401
+                ],
+                "score": 0.999,
+                "text": "is"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    302,
+                    414,
+                    976,
+                    457
+                ],
+                "score": 0.995,
+                "text": "a lower alkyl or benzyl group or"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1037,
+                    409,
+                    1425,
+                    458
+                ],
+                "score": 0.996,
+                "text": "is a hydrogen atom"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    309,
+                    466,
+                    795,
+                    509
+                ],
+                "score": 0.981,
+                "text": "or lower alkyl group or"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    853,
+                    461,
+                    957,
+                    509
+                ],
+                "score": 0.999,
+                "text": "isa"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1082,
+                    465,
+                    1324,
+                    507
+                ],
+                "score": 1.0,
+                "text": "group where"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1388,
+                    462,
+                    1445,
+                    508
+                ],
+                "score": 0.998,
+                "text": "is"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    306,
+                    518,
+                    930,
+                    564
+                ],
+                "score": 0.983,
+                "text": "a lower alkyl or benzyl group."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    434,
+                    617,
+                    611,
+                    666
+                ],
+                "score": 0.995,
+                "text": "Suitably"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    670,
+                    615,
+                    776,
+                    665
+                ],
+                "score": 0.999,
+                "text": "isa"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    961,
+                    618,
+                    1206,
+                    662
+                ],
+                "score": 1.0,
+                "text": "group where."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1264,
+                    618,
+                    1367,
+                    661
+                ],
+                "score": 0.997,
+                "text": "isa"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    309,
+                    669,
+                    1366,
+                    717
+                ],
+                "score": 0.989,
+                "text": "lower alkyl group，a phenyl group or a phenyl group"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    316,
+                    723,
+                    1386,
+                    768
+                ],
+                "score": 0.981,
+                "text": "substituted by one or two halogen atoms，lower alkyl"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    316,
+                    776,
+                    1159,
+                    818
+                ],
+                "score": 0.965,
+                "text": "or lower alkoxyl groups; and n is 1 or 2."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    440,
+                    874,
+                    1491,
+                    923
+                ],
+                "score": 0.994,
+                "text": "From the foregoing it will be realised that certain"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    318,
+                    926,
+                    1490,
+                    974
+                ],
+                "score": 1.0,
+                "text": "favoured compounds of this invention include those of the"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    318,
+                    978,
+                    797,
+                    1022
+                ],
+                "score": 0.95,
+                "text": "formula (III) and (IV):"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    322,
+                    1537,
+                    486,
+                    1584
+                ],
+                "score": 1.0,
+                "text": "wherein"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    538,
+                    1544,
+                    685,
+                    1585
+                ],
+                "score": 0.932,
+                "text": ",n and"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    751,
+                    1543,
+                    1514,
+                    1587
+                ],
+                "score": 0.999,
+                "text": "are as defined in relation to formula"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    323,
+                    1584,
+                    445,
+                    1643
+                ],
+                "score": 0.88,
+                "text": "(II）."
+            }
+        ],
+        "page_info": {
+            "page_no": 3,
+            "width": 1729,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8621,
+                "bbox": [
+                    174,
+                    765,
+                    222,
+                    810
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8439,
+                "bbox": [
+                    178,
+                    1084,
+                    205,
+                    1126
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8513,
+                "bbox": [
+                    178,
+                    1441,
+                    226,
+                    1484
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9116,
+                "bbox": [
+                    1305,
+                    9,
+                    1521,
+                    71
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6293,
+                "bbox": [
+                    823,
+                    205,
+                    863,
+                    249
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.8835,
+                "bbox": [
+                    659,
+                    299,
+                    1170,
+                    505
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 11,
+                "label": "formula_number",
+                "score": 0.7329,
+                "bbox": [
+                    1424,
+                    339,
+                    1485,
+                    389
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8789,
+                "bbox": [
+                    484,
+                    569,
+                    534,
+                    617
+                ],
+                "index": 8,
+                "latex": "R _ { 1 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8906,
+                "bbox": [
+                    365,
+                    606,
+                    438,
+                    671
+                ],
+                "index": 9,
+                "latex": "{ \\tt R } _ { \\mathrm { ~ 4 ~ } } ^ { 1 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8874,
+                "bbox": [
+                    667,
+                    622,
+                    720,
+                    670
+                ],
+                "index": 10,
+                "latex": "\\mathtt { R } _ { 4 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9683,
+                "bbox": [
+                    359,
+                    562,
+                    1516,
+                    724
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8683,
+                "bbox": [
+                    711,
+                    671,
+                    822,
+                    724
+                ],
+                "index": 12,
+                "latex": "C O _ { \\tt m } R _ { 6 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9081,
+                "bbox": [
+                    668,
+                    761,
+                    743,
+                    826
+                ],
+                "index": 13,
+                "latex": "\\ R ^ { 1 } { } _ { 4 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9523,
+                "bbox": [
+                    362,
+                    759,
+                    1459,
+                    882
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8766,
+                "bbox": [
+                    812,
+                    942,
+                    863,
+                    990
+                ],
+                "index": 15,
+                "latex": "R _ { 4 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9731,
+                "bbox": [
+                    359,
+                    935,
+                    1495,
+                    1141
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9602,
+                "bbox": [
+                    363,
+                    1188,
+                    1419,
+                    1293
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.877,
+                "bbox": [
+                    934,
+                    1195,
+                    989,
+                    1244
+                ],
+                "index": 18,
+                "latex": "\\mathtt { R } _ { 4 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9068,
+                "bbox": [
+                    530,
+                    1397,
+                    641,
+                    1452
+                ],
+                "index": 19,
+                "latex": "C O _ { 2 ^ { R _ { 7 } } }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9661,
+                "bbox": [
+                    363,
+                    1342,
+                    1500,
+                    1496
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8608,
+                "bbox": [
+                    772,
+                    1398,
+                    826,
+                    1453
+                ],
+                "index": 21,
+                "latex": "n _ { 7 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8768,
+                "bbox": [
+                    1020,
+                    1348,
+                    1070,
+                    1396
+                ],
+                "index": 22,
+                "latex": "\\mathtt { R } _ { 4 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9524,
+                "bbox": [
+                    366,
+                    1546,
+                    1583,
+                    1750
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.5307,
+                "bbox": [
+                    990,
+                    1783,
+                    1321,
+                    1997
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 11,
+                "label": "formula_number",
+                "score": 0.7574,
+                "bbox": [
+                    1391,
+                    1834,
+                    1450,
+                    1882
+                ],
+                "index": 25
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    166,
+                    764,
+                    230,
+                    818
+                ],
+                "score": 1.0,
+                "text": "15"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    172,
+                    1436,
+                    234,
+                    1491
+                ],
+                "score": 1.0,
+                "text": "10"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    828,
+                    207,
+                    859,
+                    248
+                ],
+                "score": 1.0,
+                "text": "4"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1418,
+                    335,
+                    1494,
+                    398
+                ],
+                "score": 0.714,
+                "text": "(v）"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1383,
+                    1829,
+                    1461,
+                    1891
+                ],
+                "score": 0.76,
+                "text": "(b)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1302,
+                    10,
+                    1527,
+                    75
+                ],
+                "score": 1.0,
+                "text": "0003740"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    486,
+                    767,
+                    665,
+                    824
+                ],
+                "score": 0.999,
+                "text": "Suitably"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    753,
+                    772,
+                    1455,
+                    822
+                ],
+                "score": 0.99,
+                "text": "is a phenyl group optionally mono-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    364,
+                    834,
+                    619,
+                    881
+                ],
+                "score": 1.0,
+                "text": "substituted."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    491,
+                    1190,
+                    927,
+                    1239
+                ],
+                "score": 1.0,
+                "text": "Other suitable groups"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1000,
+                    1190,
+                    1416,
+                    1239
+                ],
+                "score": 1.0,
+                "text": "include the hydrogen"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    366,
+                    1242,
+                    1134,
+                    1291
+                ],
+                "score": 0.999,
+                "text": "atom and the methyl and ethyl groups."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    175,
+                    1087,
+                    209,
+                    1131
+                ],
+                "score": 1.0,
+                "text": "5"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    489,
+                    1344,
+                    1016,
+                    1389
+                ],
+                "score": 1.0,
+                "text": "Yet other suitable groups"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1082,
+                    1347,
+                    1498,
+                    1388
+                ],
+                "score": 0.997,
+                "text": "include those of the"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    365,
+                    1397,
+                    524,
+                    1440
+                ],
+                "score": 1.0,
+                "text": "formula"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    650,
+                    1394,
+                    771,
+                    1443
+                ],
+                "score": 1.0,
+                "text": "where"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    834,
+                    1397,
+                    1398,
+                    1441
+                ],
+                "score": 0.947,
+                "text": "is methyl，ethyl，phenyl or"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    364,
+                    1445,
+                    520,
+                    1496
+                ],
+                "score": 0.999,
+                "text": "benzyl."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    361,
+                    562,
+                    483,
+                    611
+                ],
+                "score": 0.999,
+                "text": "where"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    544,
+                    563,
+                    1478,
+                    609
+                ],
+                "score": 0.986,
+                "text": "is as defined in relation to formula (II) and"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    445,
+                    621,
+                    666,
+                    667
+                ],
+                "score": 0.997,
+                "text": "is a group"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    721,
+                    620,
+                    1516,
+                    661
+                ],
+                "score": 0.973,
+                "text": " as defined in relation to formula (II)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    368,
+                    673,
+                    710,
+                    713
+                ],
+                "score": 0.999,
+                "text": "excluding the NH."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    834,
+                    677,
+                    966,
+                    718
+                ],
+                "score": 1.0,
+                "text": "group."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    490,
+                    936,
+                    805,
+                    985
+                ],
+                "score": 1.0,
+                "text": "Suitable groups"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    877,
+                    939,
+                    1477,
+                    982
+                ],
+                "score": 0.984,
+                "text": "include the phenyl，p-chloro-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    364,
+                    991,
+                    1452,
+                    1034
+                ],
+                "score": 0.987,
+                "text": "phenyl，m-chlorophenyl，p-nitrophenyl，m-nitrophenyl,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    361,
+                    1040,
+                    1493,
+                    1086
+                ],
+                "score": 0.975,
+                "text": "p-ethoxycarbonylphenyl， p-fluorophenyl， p-methylphenyl,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    365,
+                    1093,
+                    1025,
+                    1136
+                ],
+                "score": 0.987,
+                "text": "p-methoxyphenyl and 1ike groups."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    490,
+                    1546,
+                    1583,
+                    1593
+                ],
+                "score": 0.981,
+                "text": "It will be realised that the compounds of the formula"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    371,
+                    1592,
+                    1442,
+                    1650
+                ],
+                "score": 0.988,
+                "text": "(II) may be in either of two geometrical forms about"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    368,
+                    1646,
+                    1481,
+                    1699
+                ],
+                "score": 0.985,
+                "text": "the exocyclic double bond as shown in the sub-formulae"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    371,
+                    1697,
+                    726,
+                    1749
+                ],
+                "score": 0.945,
+                "text": "(a)and (b） thus:"
+            }
+        ],
+        "page_info": {
+            "page_no": 4,
+            "width": 1729,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9117,
+                "bbox": [
+                    1300,
+                    127,
+                    1514,
+                    180
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8529,
+                "bbox": [
+                    902,
+                    272,
+                    943,
+                    306
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.978,
+                "bbox": [
+                    378,
+                    378,
+                    1467,
+                    518
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8993,
+                "bbox": [
+                    466,
+                    582,
+                    575,
+                    629
+                ],
+                "index": 4,
+                "latex": "\\mathtt { c o } _ { 2 } \\mathtt { R } _ { \\mathtt { I } }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9855,
+                "bbox": [
+                    382,
+                    531,
+                    1531,
+                    925
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9138,
+                "bbox": [
+                    1012,
+                    632,
+                    1118,
+                    680
+                ],
+                "index": 6,
+                "latex": "\\mathsf { c o } _ { 2 } \\mathsf { R } _ { 1 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8524,
+                "bbox": [
+                    828,
+                    932,
+                    877,
+                    980
+                ],
+                "index": 7,
+                "latex": "R _ { 1 } ^ { 1 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9844,
+                "bbox": [
+                    382,
+                    934,
+                    1570,
+                    1286
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9813,
+                "bbox": [
+                    379,
+                    1332,
+                    1607,
+                    1636
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8706,
+                "bbox": [
+                    1092,
+                    1328,
+                    1146,
+                    1388
+                ],
+                "index": 10,
+                "latex": "R _ { 1 } ^ { 1 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.91,
+                "bbox": [
+                    1010,
+                    1680,
+                    1062,
+                    1743
+                ],
+                "index": 11,
+                "latex": "R _ { 1 } ^ { 1 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9822,
+                "bbox": [
+                    383,
+                    1687,
+                    1598,
+                    1995
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8719,
+                "bbox": [
+                    1070,
+                    1782,
+                    1124,
+                    1844
+                ],
+                "index": 13,
+                "latex": "a _ { 1 } ^ { 1 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9536,
+                "bbox": [
+                    389,
+                    2039,
+                    1525,
+                    2143
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9125,
+                "bbox": [
+                    1114,
+                    2036,
+                    1164,
+                    2097
+                ],
+                "index": 15,
+                "latex": "R _ { 1 } ^ { I }"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    910,
+                    273,
+                    936,
+                    311
+                ],
+                "score": 1.0,
+                "text": "5"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1299,
+                    120,
+                    1518,
+                    186
+                ],
+                "score": 1.0,
+                "text": "0003740"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    624,
+                    375,
+                    1405,
+                    420
+                ],
+                "score": 0.997,
+                "text": "Both separated geometrical isomers and"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    383,
+                    423,
+                    1464,
+                    473
+                ],
+                "score": 0.999,
+                "text": "mixtures of said isomers are within the scope of this"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    385,
+                    477,
+                    595,
+                    519
+                ],
+                "score": 1.0,
+                "text": "invention."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    507,
+                    936,
+                    823,
+                    977
+                ],
+                "score": 0.999,
+                "text": "Suitable groups"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    888,
+                    932,
+                    1481,
+                    973
+                ],
+                "score": 0.993,
+                "text": "include alkyl groups of up to"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    387,
+                    984,
+                    1541,
+                    1024
+                ],
+                "score": 0.981,
+                "text": "12 carbon atoms，alkenyl groups of up to 12 carbon atoms,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    388,
+                    1037,
+                    1541,
+                    1074
+                ],
+                "score": 0.991,
+                "text": "alkynyl groups of up to 12 carbon atoms， phenyl or benzyl"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    387,
+                    1133,
+                    1564,
+                    1181
+                ],
+                "score": 0.967,
+                "text": "alkoxyl,lower acyloxyl，halogen,nitro or the like group."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    387,
+                    1184,
+                    1568,
+                    1229
+                ],
+                "score": 0.992,
+                "text": "Used herein 'inertly substituted' means that the resulting"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    386,
+                    1082,
+                    1448,
+                    1133
+                ],
+                "score": 0.998,
+                "text": "groups or any aforesaid inertly substituted by lower"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    387,
+                    1230,
+                    1549,
+                    1285
+                ],
+                "score": 0.999,
+                "text": "group is stable and will not undergo rapid decomposition."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    511,
+                    2039,
+                    1110,
+                    2100
+                ],
+                "score": 0.997,
+                "text": "An especially preferred group"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1175,
+                    2044,
+                    1524,
+                    2094
+                ],
+                "score": 0.973,
+                "text": "is the phthalidyl"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    392,
+                    2101,
+                    527,
+                    2149
+                ],
+                "score": 0.999,
+                "text": "group."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    629,
+                    528,
+                    1427,
+                    572
+                ],
+                "score": 0.983,
+                "text": "In the compounds of the formulae (II） -"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    393,
+                    581,
+                    452,
+                    621
+                ],
+                "score": 0.867,
+                "text": "(v)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    587,
+                    576,
+                    1448,
+                    628
+                ],
+                "score": 1.0,
+                "text": "is favourably a carboxylic acid group or a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    386,
+                    628,
+                    1003,
+                    674
+                ],
+                "score": 0.996,
+                "text": "salt thereof. Most favourably"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1132,
+                    636,
+                    1388,
+                    674
+                ],
+                "score": 0.997,
+                "text": "represents a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    385,
+                    680,
+                    1405,
+                    724
+                ],
+                "score": 0.998,
+                "text": "salted carboxylic acid group wherein the cation is"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    388,
+                    729,
+                    1525,
+                    778
+                ],
+                "score": 0.989,
+                "text": "pharmaceutically acceptable. Preferred pharmaceutically"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    388,
+                    780,
+                    1509,
+                    826
+                ],
+                "score": 0.982,
+                "text": "acceptable salts include the sodium， potassium， calcium"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    389,
+                    832,
+                    1347,
+                    874
+                ],
+                "score": 0.997,
+                "text": "and magnesium salts of which the sodium salt is"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    388,
+                    884,
+                    860,
+                    922
+                ],
+                "score": 0.999,
+                "text": "particularly preferred."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    511,
+                    1338,
+                    1091,
+                    1381
+                ],
+                "score": 0.999,
+                "text": "Particularly suitable groups"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1158,
+                    1335,
+                    1544,
+                    1376
+                ],
+                "score": 0.976,
+                "text": "include lower alkyl"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    384,
+                    1388,
+                    1539,
+                    1436
+                ],
+                "score": 0.981,
+                "text": "groups optionally substituted by lower alkoxyl group; the"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    382,
+                    1437,
+                    1456,
+                    1488
+                ],
+                "score": 0.996,
+                "text": "benzyl group optionally substituted by lower alkoxyl,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    384,
+                    1491,
+                    1462,
+                    1537
+                ],
+                "score": 0.984,
+                "text": "nitro，chloro or the like; and those groups which are"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    386,
+                    1542,
+                    1602,
+                    1586
+                ],
+                "score": 0.99,
+                "text": "known to give rise to rapid in-vivo hydrolysis in penicillin"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    386,
+                    1588,
+                    541,
+                    1639
+                ],
+                "score": 1.0,
+                "text": "esters."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    508,
+                    1691,
+                    1009,
+                    1739
+                ],
+                "score": 1.0,
+                "text": "Certain preferred groups"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1071,
+                    1694,
+                    1596,
+                    1736
+                ],
+                "score": 0.984,
+                "text": "include the methyl，ethyl,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    389,
+                    1745,
+                    1524,
+                    1788
+                ],
+                "score": 0.992,
+                "text": "methoxymethyl，2-methoxyethyl，benzyl，methoxybenzyl and"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    389,
+                    1792,
+                    1069,
+                    1842
+                ],
+                "score": 0.99,
+                "text": "the like. Other preferred groups"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1131,
+                    1798,
+                    1523,
+                    1837
+                ],
+                "score": 0.998,
+                "text": "include those which"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    392,
+                    1847,
+                    1445,
+                    1890
+                ],
+                "score": 1.0,
+                "text": "give rise to in-vivo hydrolysable esters such as the"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    390,
+                    1897,
+                    1578,
+                    1941
+                ],
+                "score": 0.988,
+                "text": "acetoxymethyl， pivaloyloxymethyl，α-ethoxycarbonyloxyethyl,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    392,
+                    1949,
+                    880,
+                    1988
+                ],
+                "score": 0.978,
+                "text": "phthalidyl and the like."
+            }
+        ],
+        "page_info": {
+            "page_no": 5,
+            "width": 1729,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9253,
+                "bbox": [
+                    1364,
+                    81,
+                    1577,
+                    132
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8436,
+                "bbox": [
+                    890,
+                    258,
+                    934,
+                    295
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9634,
+                "bbox": [
+                    426,
+                    349,
+                    1495,
+                    461
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8965,
+                "bbox": [
+                    1302,
+                    349,
+                    1351,
+                    411
+                ],
+                "index": 4,
+                "latex": "R _ { 1 } ^ { 1 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9682,
+                "bbox": [
+                    425,
+                    513,
+                    1518,
+                    610
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9192,
+                "bbox": [
+                    724,
+                    676,
+                    1245,
+                    917
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 11,
+                "label": "formula_number",
+                "score": 0.917,
+                "bbox": [
+                    1480,
+                    768,
+                    1559,
+                    813
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.803,
+                "bbox": [
+                    595,
+                    975,
+                    642,
+                    1019
+                ],
+                "index": 8,
+                "latex": "R _ { 1 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.831,
+                "bbox": [
+                    676,
+                    975,
+                    725,
+                    1022
+                ],
+                "index": 9,
+                "latex": "R _ { 2 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8475,
+                "bbox": [
+                    756,
+                    974,
+                    807,
+                    1024
+                ],
+                "index": 10,
+                "latex": "R _ { 3 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8894,
+                "bbox": [
+                    896,
+                    975,
+                    946,
+                    1019
+                ],
+                "index": 11,
+                "latex": "R _ { 4 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9576,
+                "bbox": [
+                    429,
+                    970,
+                    1556,
+                    1063
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9814,
+                "bbox": [
+                    429,
+                    1122,
+                    1598,
+                    1369
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9627,
+                "bbox": [
+                    437,
+                    1416,
+                    1526,
+                    1507
+                ],
+                "index": 14
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    898,
+                    256,
+                    927,
+                    300
+                ],
+                "score": 0.999,
+                "text": "6"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1471,
+                    759,
+                    1572,
+                    823
+                ],
+                "score": 0.709,
+                "text": "(VI)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    561,
+                    1410,
+                    1526,
+                    1466
+                ],
+                "score": 0.978,
+                "text": "A reaction sequence leading to the compounds of"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    441,
+                    1461,
+                    1037,
+                    1509
+                ],
+                "score": 1.0,
+                "text": "this invention is as follows:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1361,
+                    76,
+                    1581,
+                    138
+                ],
+                "score": 1.0,
+                "text": "0003740"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    551,
+                    359,
+                    1294,
+                    410
+                ],
+                "score": 0.997,
+                "text": "A further especially preferred group"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1360,
+                    356,
+                    1497,
+                    409
+                ],
+                "score": 0.953,
+                "text": "is the"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    428,
+                    412,
+                    846,
+                    460
+                ],
+                "score": 0.999,
+                "text": "p-nitrobenzyl group."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    551,
+                    504,
+                    1518,
+                    566
+                ],
+                "score": 0.976,
+                "text": "The compounds of the formula (II) most suitably"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    431,
+                    563,
+                    1352,
+                    607
+                ],
+                "score": 0.989,
+                "text": "have the configuration shown in formula (vI):"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    432,
+                    966,
+                    593,
+                    1012
+                ],
+                "score": 1.0,
+                "text": "wherein"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    643,
+                    988,
+                    666,
+                    1011
+                ],
+                "score": 0.949,
+                "text": "，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    814,
+                    968,
+                    893,
+                    1013
+                ],
+                "score": 0.999,
+                "text": "and"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    956,
+                    971,
+                    1556,
+                    1012
+                ],
+                "score": 0.999,
+                "text": "are as defined in relation to"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    432,
+                    1016,
+                    706,
+                    1063
+                ],
+                "score": 0.974,
+                "text": "formula (II)."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    728,
+                    990,
+                    738,
+                    1009
+                ],
+                "score": 0.585,
+                "text": "，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    556,
+                    1119,
+                    1579,
+                    1168
+                ],
+                "score": 0.986,
+                "text": "Thus the compounds of the invention are preferably"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    435,
+                    1171,
+                    1474,
+                    1216
+                ],
+                "score": 0.989,
+                "text": "those having the S- configuration at C-5. However,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    434,
+                    1224,
+                    1599,
+                    1265
+                ],
+                "score": 0.979,
+                "text": "mixtures of the compounds·of the formula (vI) with their"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    435,
+                    1273,
+                    1494,
+                    1317
+                ],
+                "score": 0.965,
+                "text": "enantiomers， for example the 5Rs compounds，are also"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    438,
+                    1325,
+                    1070,
+                    1367
+                ],
+                "score": 0.999,
+                "text": "included within this invention."
+            }
+        ],
+        "page_info": {
+            "page_no": 6,
+            "width": 1729,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.935,
+                "bbox": [
+                    1326,
+                    131,
+                    1545,
+                    186
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.5211,
+                "bbox": [
+                    275,
+                    1699,
+                    323,
+                    1739
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8154,
+                "bbox": [
+                    911,
+                    320,
+                    954,
+                    356
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9499,
+                "bbox": [
+                    362,
+                    415,
+                    1604,
+                    1881
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9669,
+                "bbox": [
+                    357,
+                    1916,
+                    1552,
+                    2087
+                ],
+                "index": 5
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    273,
+                    1701,
+                    324,
+                    1743
+                ],
+                "score": 0.986,
+                "text": "II"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    919,
+                    319,
+                    948,
+                    359
+                ],
+                "score": 1.0,
+                "text": "7"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1323,
+                    125,
+                    1549,
+                    192
+                ],
+                "score": 1.0,
+                "text": "0003740"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    485,
+                    1924,
+                    1428,
+                    1973
+                ],
+                "score": 0.997,
+                "text": "The process provided by this invention for the"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    364,
+                    1975,
+                    1545,
+                    2025
+                ],
+                "score": 0.981,
+                "text": "preparation of the compounds of the formula (II) comprises"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    364,
+                    2027,
+                    1545,
+                    2076
+                ],
+                "score": 0.999,
+                "text": "the ring closing elimination of the elements of triphenyl-"
+            }
+        ],
+        "page_info": {
+            "page_no": 7,
+            "width": 1729,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9237,
+                "bbox": [
+                    1322,
+                    71,
+                    1538,
+                    125
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8495,
+                "bbox": [
+                    911,
+                    241,
+                    951,
+                    274
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9454,
+                "bbox": [
+                    388,
+                    411,
+                    1450,
+                    456
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9738,
+                "bbox": [
+                    667,
+                    581,
+                    1188,
+                    812
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.5665,
+                "bbox": [
+                    1364,
+                    645,
+                    1463,
+                    690
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7353,
+                "bbox": [
+                    550,
+                    853,
+                    599,
+                    911
+                ],
+                "index": 6,
+                "latex": "R _ { 1 } ^ { I }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7509,
+                "bbox": [
+                    631,
+                    866,
+                    678,
+                    913
+                ],
+                "index": 7,
+                "latex": "\\mathtt { R } _ { 2 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8598,
+                "bbox": [
+                    713,
+                    868,
+                    762,
+                    916
+                ],
+                "index": 8,
+                "latex": "R _ { 3 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8903,
+                "bbox": [
+                    854,
+                    870,
+                    904,
+                    912
+                ],
+                "index": 9,
+                "latex": "\\mathtt { R } _ { 4 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9767,
+                "bbox": [
+                    389,
+                    858,
+                    1522,
+                    1011
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9853,
+                "bbox": [
+                    387,
+                    1018,
+                    1516,
+                    1314
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9146,
+                "bbox": [
+                    572,
+                    1161,
+                    761,
+                    1207
+                ],
+                "index": 12,
+                "latex": "1 0 0 - 1 1 0 ^ { \\circ } C"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9103,
+                "bbox": [
+                    1138,
+                    1110,
+                    1288,
+                    1158
+                ],
+                "index": 13,
+                "latex": "9 0 - 1 2 0 ^ { \\circ }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9845,
+                "bbox": [
+                    395,
+                    1322,
+                    1500,
+                    1570
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9726,
+                "bbox": [
+                    396,
+                    1576,
+                    1575,
+                    2124
+                ],
+                "index": 15
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    919,
+                    240,
+                    945,
+                    276
+                ],
+                "score": 1.0,
+                "text": "8"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    390,
+                    407,
+                    1448,
+                    457
+                ],
+                "score": 0.995,
+                "text": "phosphineoxide from a compound of the formula (vII):"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1320,
+                    68,
+                    1543,
+                    129
+                ],
+                "score": 1.0,
+                "text": "0003740"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    393,
+                    861,
+                    546,
+                    904
+                ],
+                "score": 1.0,
+                "text": "wherein"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    679,
+                    884,
+                    699,
+                    907
+                ],
+                "score": 0.902,
+                "text": "，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    772,
+                    865,
+                    852,
+                    907
+                ],
+                "score": 1.0,
+                "text": "and"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    905,
+                    863,
+                    1512,
+                    911
+                ],
+                "score": 0.995,
+                "text": " are as defined in relation to"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    392,
+                    912,
+                    1523,
+                    961
+                ],
+                "score": 0.984,
+                "text": "formula (II);and thereafter cleaving the ester to yield"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    403,
+                    969,
+                    1054,
+                    1011
+                ],
+                "score": 0.995,
+                "text": "the carboxylic acid or its salt."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    590,
+                    879,
+                    615,
+                    905
+                ],
+                "score": 0.916,
+                "text": "，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1356,
+                    637,
+                    1474,
+                    699
+                ],
+                "score": 0.837,
+                "text": "(VII)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    512,
+                    1014,
+                    1433,
+                    1062
+                ],
+                "score": 0.991,
+                "text": "The ring closure is normally brought about by"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    392,
+                    1066,
+                    1472,
+                    1109
+                ],
+                "score": 0.977,
+                "text": "heating the compound of the formula (vII） in an inert"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    393,
+                    1115,
+                    1133,
+                    1161
+                ],
+                "score": 0.98,
+                "text": "solvent; for example temperatures of"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1299,
+                    1118,
+                    1472,
+                    1161
+                ],
+                "score": 0.999,
+                "text": "and more"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    395,
+                    1164,
+                    565,
+                    1212
+                ],
+                "score": 1.0,
+                "text": "suitably"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    772,
+                    1170,
+                    1514,
+                    1213
+                ],
+                "score": 0.989,
+                "text": "may be employed in a solvent such as"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    392,
+                    1213,
+                    1474,
+                    1263
+                ],
+                "score": 0.994,
+                "text": "toluene or the like. The reaction is best carried out"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    393,
+                    1265,
+                    1208,
+                    1315
+                ],
+                "score": 0.989,
+                "text": "under dry conditions under an inert gas."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    521,
+                    1323,
+                    1456,
+                    1364
+                ],
+                "score": 0.981,
+                "text": "The ester of the compound (II) produced may be"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    401,
+                    1375,
+                    1417,
+                    1413
+                ],
+                "score": 0.999,
+                "text": "isolated by any standard method such as fractional"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    402,
+                    1425,
+                    1500,
+                    1464
+                ],
+                "score": 0.99,
+                "text": "crystallisation or chromatography. We have found that"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    399,
+                    1475,
+                    1480,
+                    1515
+                ],
+                "score": 0.987,
+                "text": "it is most convenient to separate the desired product"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    398,
+                    1525,
+                    910,
+                    1569
+                ],
+                "score": 0.998,
+                "text": "by column chromatography."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    518,
+                    1576,
+                    1477,
+                    1617
+                ],
+                "score": 0.998,
+                "text": "Any convenient ester may be used in the process"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    401,
+                    1625,
+                    1459,
+                    1668
+                ],
+                "score": 0.99,
+                "text": "of this invention. Since it is frequently desirable"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    401,
+                    1676,
+                    1458,
+                    1718
+                ],
+                "score": 0.972,
+                "text": "to form a salt of compounds (II)， the ester employed"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    399,
+                    1727,
+                    1441,
+                    1768
+                ],
+                "score": 0.999,
+                "text": "is preferably one which is readily converted to the"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    397,
+                    1776,
+                    1578,
+                    1819
+                ],
+                "score": 0.999,
+                "text": "parent acid or its salt by mild methods of hydrogenolysis."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    401,
+                    1826,
+                    1459,
+                    1867
+                ],
+                "score": 0.99,
+                "text": "In a further aspect therefore the invention includes"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    399,
+                    1879,
+                    1383,
+                    1916
+                ],
+                "score": 0.98,
+                "text": "a process for preparing a salt or free acid of a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    402,
+                    1926,
+                    1463,
+                    1973
+                ],
+                "score": 0.99,
+                "text": "compound (II) which process comprises de-esterifying"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    405,
+                    1977,
+                    1481,
+                    2020
+                ],
+                "score": 0.991,
+                "text": "an ester of a compound of formula (II). Particularly"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    403,
+                    2027,
+                    1501,
+                    2068
+                ],
+                "score": 0.999,
+                "text": "suitable esters for use in this process include benzyl"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    405,
+                    2079,
+                    1441,
+                    2117
+                ],
+                "score": 0.994,
+                "text": "esters，optionally substituted in the para position"
+            }
+        ],
+        "page_info": {
+            "page_no": 8,
+            "width": 1729,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8091,
+                "bbox": [
+                    298,
+                    1056,
+                    340,
+                    1091
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.7792,
+                "bbox": [
+                    312,
+                    552,
+                    337,
+                    587
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8282,
+                "bbox": [
+                    297,
+                    808,
+                    341,
+                    842
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8092,
+                "bbox": [
+                    300,
+                    1310,
+                    345,
+                    1343
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9452,
+                "bbox": [
+                    1325,
+                    110,
+                    1538,
+                    161
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.805,
+                "bbox": [
+                    303,
+                    1563,
+                    346,
+                    1598
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8456,
+                "bbox": [
+                    946,
+                    246,
+                    987,
+                    279
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9206,
+                "bbox": [
+                    404,
+                    350,
+                    1467,
+                    391
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9625,
+                "bbox": [
+                    405,
+                    401,
+                    1510,
+                    493
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9727,
+                "bbox": [
+                    408,
+                    503,
+                    1513,
+                    595
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.967,
+                "bbox": [
+                    412,
+                    605,
+                    1583,
+                    1561
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5991,
+                "bbox": [
+                    781,
+                    1209,
+                    909,
+                    1254
+                ],
+                "index": 12,
+                "latex": "{ \\tt N a H C O } _ { 3 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5277,
+                "bbox": [
+                    940,
+                    1210,
+                    1051,
+                    1257
+                ],
+                "index": 13,
+                "latex": "\\mathtt { K H C O } _ { 3 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.587,
+                "bbox": [
+                    1081,
+                    1209,
+                    1499,
+                    1258
+                ],
+                "index": 14,
+                "latex": "\\aleph \\mathsf { a } _ { 2 } \\mathsf { C o } _ { 3 } , \\aleph _ { 2 } \\mathsf { C o } _ { 3 } , \\mathsf { C a C O } _ { 3 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6815,
+                "bbox": [
+                    419,
+                    1260,
+                    526,
+                    1306
+                ],
+                "index": 15,
+                "latex": "\\yen 123"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6431,
+                "bbox": [
+                    560,
+                    1259,
+                    689,
+                    1306
+                ],
+                "index": 16,
+                "latex": "\\mathtt { L i H C O } _ { 3 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7085,
+                "bbox": [
+                    721,
+                    1258,
+                    908,
+                    1307
+                ],
+                "index": 17,
+                "latex": "\\mathtt { N F } _ { 4 } \\mathtt { O C O C F } _ { 3 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6088,
+                "bbox": [
+                    664,
+                    1514,
+                    792,
+                    1561
+                ],
+                "index": 18,
+                "latex": "{ \\tt N a H C O } _ { 3 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6709,
+                "bbox": [
+                    974,
+                    1512,
+                    1073,
+                    1560
+                ],
+                "index": 19,
+                "latex": "\\left( \\mathsf { O } \\bar { \\mathbf { H } } \\right) _ { 2 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6102,
+                "bbox": [
+                    1218,
+                    1511,
+                    1315,
+                    1559
+                ],
+                "index": 20,
+                "latex": "\\left( \\mathsf { O H } \\right) _ { 2 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.975,
+                "bbox": [
+                    418,
+                    1563,
+                    1521,
+                    1756
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9749,
+                "bbox": [
+                    415,
+                    1770,
+                    1592,
+                    1922
+                ],
+                "index": 22
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    295,
+                    1055,
+                    345,
+                    1100
+                ],
+                "score": 0.999,
+                "text": "15"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    291,
+                    806,
+                    347,
+                    852
+                ],
+                "score": 0.996,
+                "text": "10"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    294,
+                    1302,
+                    355,
+                    1355
+                ],
+                "score": 1.0,
+                "text": "20"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    298,
+                    1560,
+                    353,
+                    1607
+                ],
+                "score": 1.0,
+                "text": "25"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    954,
+                    245,
+                    979,
+                    284
+                ],
+                "score": 0.941,
+                "text": "9"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    408,
+                    347,
+                    1471,
+                    396
+                ],
+                "score": 0.989,
+                "text": "by a lower alkoxy，or nitro group or a halogen atom."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    530,
+                    398,
+                    1510,
+                    443
+                ],
+                "score": 0.987,
+                "text": "A preferred ester for use in this process is the"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    408,
+                    450,
+                    825,
+                    495
+                ],
+                "score": 1.0,
+                "text": "p-nitrobenzyl ester."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    529,
+                    499,
+                    1512,
+                    547
+                ],
+                "score": 0.986,
+                "text": "Esters of compounds (II) may be de-esterified by"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    411,
+                    551,
+                    1205,
+                    598
+                ],
+                "score": 1.0,
+                "text": "conventional methods of hydrogenolysis."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1320,
+                    102,
+                    1542,
+                    167
+                ],
+                "score": 1.0,
+                "text": "0003740"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    312,
+                    555,
+                    338,
+                    592
+                ],
+                "score": 1.0,
+                "text": "5"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    536,
+                    1768,
+                    1593,
+                    1816
+                ],
+                "score": 0.982,
+                "text": "The compound of the formula (vII） may be prepared by"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    421,
+                    1875,
+                    570,
+                    1923
+                ],
+                "score": 0.99,
+                "text": "(VIII):"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    415,
+                    1819,
+                    1536,
+                    1869
+                ],
+                "score": 0.986,
+                "text": "the reaction of a corresponding compound of the formula"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    543,
+                    1559,
+                    1418,
+                    1604
+                ],
+                "score": 0.983,
+                "text": "The salts of acids (II) may be converted to"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    420,
+                    1612,
+                    1517,
+                    1657
+                ],
+                "score": 0.99,
+                "text": "esters in conventional manner， for example by reaction"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    421,
+                    1664,
+                    1399,
+                    1703
+                ],
+                "score": 0.988,
+                "text": "with a reactive halide such as bromophthalide in"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    424,
+                    1715,
+                    1355,
+                    1754
+                ],
+                "score": 0.994,
+                "text": "solution in dimethylformamide or like solvent."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    533,
+                    601,
+                    1451,
+                    647
+                ],
+                "score": 0.988,
+                "text": "Suitable methods include hydrogenation in the"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    407,
+                    652,
+                    1513,
+                    700
+                ],
+                "score": 0.978,
+                "text": "presence of a transition metal catalyst. The pressure"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    414,
+                    707,
+                    1454,
+                    747
+                ],
+                "score": 0.994,
+                "text": "of hydrogen used in the reaction may be low，medium"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    415,
+                    758,
+                    1453,
+                    798
+                ],
+                "score": 0.997,
+                "text": "or high but in general an approximately atmospheric"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    414,
+                    809,
+                    1433,
+                    849
+                ],
+                "score": 0.999,
+                "text": "or slightly super-atmospheric pressure of hydrogen"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    411,
+                    854,
+                    1495,
+                    899
+                ],
+                "score": 0.989,
+                "text": "is preferred. The transition metal catalyst employed"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    415,
+                    905,
+                    1415,
+                    946
+                ],
+                "score": 0.989,
+                "text": "is preferably palladium on charcoal or on calcium"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    417,
+                    956,
+                    1435,
+                    998
+                ],
+                "score": 0.993,
+                "text": "carbonate. The hydrogenation may be effected in a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    415,
+                    1005,
+                    1454,
+                    1045
+                ],
+                "score": 0.991,
+                "text": "suitable solvent in which the ester is soluble such"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    413,
+                    1056,
+                    1495,
+                    1100
+                ],
+                "score": 0.974,
+                "text": "as aqueous dioxan or the like. If this hydrogenation"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    413,
+                    1106,
+                    1477,
+                    1150
+                ],
+                "score": 0.989,
+                "text": "is carried out in the presence of a base then a salt"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    417,
+                    1157,
+                    1442,
+                    1197
+                ],
+                "score": 0.989,
+                "text": "of compounds (II) is produced. Suitable bases for"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    419,
+                    1209,
+                    770,
+                    1245
+                ],
+                "score": 0.999,
+                "text": "inclusion include"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1052,
+                    1223,
+                    1071,
+                    1245
+                ],
+                "score": 0.539,
+                "text": "/"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    690,
+                    1273,
+                    707,
+                    1298
+                ],
+                "score": 0.571,
+                "text": "，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    921,
+                    1253,
+                    1515,
+                    1298
+                ],
+                "score": 0.988,
+                "text": "and the like. If no base is"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    417,
+                    1310,
+                    1518,
+                    1349
+                ],
+                "score": 0.993,
+                "text": "present then hydrogenation leads to the preparation of"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    418,
+                    1361,
+                    1577,
+                    1398
+                ],
+                "score": 0.99,
+                "text": "an acid within formula (II) which may then be neutralised"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    415,
+                    1405,
+                    1498,
+                    1455
+                ],
+                "score": 0.991,
+                "text": "if desired to yield a salt. Suitable bases which may"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    417,
+                    1460,
+                    1535,
+                    1500
+                ],
+                "score": 0.98,
+                "text": "be used to neutralise acids within formula (II) include"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    418,
+                    1509,
+                    653,
+                    1554
+                ],
+                "score": 0.958,
+                "text": "LiOH，NaOH,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    793,
+                    1510,
+                    973,
+                    1551
+                ],
+                "score": 0.934,
+                "text": "，KOH，Ca"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1087,
+                    1511,
+                    1217,
+                    1549
+                ],
+                "score": 0.998,
+                "text": "and Ba"
+            }
+        ],
+        "page_info": {
+            "page_no": 9,
+            "width": 1729,
+            "height": 2339
+        }
+    }
+]

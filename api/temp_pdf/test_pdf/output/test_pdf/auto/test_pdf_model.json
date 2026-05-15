@@ -1,0 +1,547 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9335,
+                "bbox": [
+                    236,
+                    112,
+                    450,
+                    142
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9348,
+                "bbox": [
+                    1169,
+                    112,
+                    1425,
+                    142
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7901,
+                "bbox": [
+                    169,
+                    270,
+                    1045,
+                    312
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9702,
+                "bbox": [
+                    372,
+                    325,
+                    1278,
+                    538
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8103,
+                "bbox": [
+                    615,
+                    612,
+                    683,
+                    650
+                ],
+                "index": 5,
+                "latex": "0 ~ ^ { \\circ } \\mathbf C"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9866,
+                "bbox": [
+                    166,
+                    554,
+                    1485,
+                    829
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9417,
+                "bbox": [
+                    168,
+                    842,
+                    1044,
+                    885
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9747,
+                "bbox": [
+                    244,
+                    898,
+                    1411,
+                    1123
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9865,
+                "bbox": [
+                    166,
+                    1138,
+                    1485,
+                    1472
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.795,
+                "bbox": [
+                    551,
+                    1311,
+                    657,
+                    1350
+                ],
+                "index": 10,
+                "latex": "\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9737,
+                "bbox": [
+                    168,
+                    1483,
+                    1483,
+                    1584
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7782,
+                "bbox": [
+                    367,
+                    1598,
+                    1053,
+                    1641
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9742,
+                "bbox": [
+                    174,
+                    1654,
+                    1480,
+                    1843
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9675,
+                "bbox": [
+                    167,
+                    1861,
+                    1484,
+                    2022
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7554,
+                "bbox": [
+                    544,
+                    1976,
+                    635,
+                    2013
+                ],
+                "index": 15,
+                "latex": "8 0 ~ ^ { \\circ } \\mathrm { C }"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8989,
+                "bbox": [
+                    799,
+                    2188,
+                    835,
+                    2217
+                ],
+                "index": 16
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    236,
+                    111,
+                    450,
+                    144
+                ],
+                "score": 0.989,
+                "text": "WO 2020/252229"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1169,
+                    113,
+                    1424,
+                    145
+                ],
+                "score": 1.0,
+                "text": "PCT/US2020/037378"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    167,
+                    267,
+                    275,
+                    319
+                ],
+                "score": 0.999,
+                "text": "[0293]"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    372,
+                    268,
+                    1045,
+                    313
+                ],
+                "score": 0.998,
+                "text": "Synthetic Example E: Synthesis of Example 71"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    168,
+                    840,
+                    275,
+                    891
+                ],
+                "score": 0.999,
+                "text": "[0295]"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    372,
+                    841,
+                    1043,
+                    886
+                ],
+                "score": 0.993,
+                "text": "Synthetic Example F: Synthesis of Example 11"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    170,
+                    554,
+                    275,
+                    600
+                ],
+                "score": 0.998,
+                "text": "[0294]"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    372,
+                    555,
+                    1482,
+                    597
+                ],
+                "score": 0.99,
+                "text": "Aniline (22 mg, 0.241 mmol) and pyridine (0.097 mL,1.20 mmol) are suspended"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    171,
+                    612,
+                    614,
+                    654
+                ],
+                "score": 0.991,
+                "text": "in CHCl (5 mL) and cooled to"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    684,
+                    612,
+                    1481,
+                    654
+                ],
+                "score": 0.979,
+                "text": " and stirred for 5 minutes. To the reaction mixture R-9 (50"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    170,
+                    668,
+                    1484,
+                    712
+                ],
+                "score": 0.976,
+                "text": "mg, 0.24l mmol) is added and the reaction mixture is stirred for 1O minutes. The reaction"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    173,
+                    727,
+                    1482,
+                    769
+                ],
+                "score": 0.987,
+                "text": "mixture is concentrated in vacuo. The crude product is purified by preparative HPLC to afford"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    174,
+                    784,
+                    547,
+                    828
+                ],
+                "score": 0.977,
+                "text": "Example 71 (22 mg, 35%)."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    168,
+                    1135,
+                    274,
+                    1183
+                ],
+                "score": 0.999,
+                "text": "[0296]"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    372,
+                    1136,
+                    1481,
+                    1180
+                ],
+                "score": 0.972,
+                "text": "R-10 (50 mg, 0.359 mmol), R-11 (69 uL, 0.539 mmol) are dissolved in CHCl (2"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    174,
+                    1198,
+                    1481,
+                    1237
+                ],
+                "score": 0.979,
+                "text": "mL). Triethylamine (0.15 mL,1.08 mmol) is added and the reaction mixture is stirred at room"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    171,
+                    1254,
+                    1482,
+                    1298
+                ],
+                "score": 0.984,
+                "text": "temperature for 17 hrs. The mixture is washed with water (2 mL) then passed through a Telos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    171,
+                    1314,
+                    550,
+                    1352
+                ],
+                "score": 0.986,
+                "text": "phase separator. Additional"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    658,
+                    1312,
+                    1482,
+                    1352
+                ],
+                "score": 0.989,
+                "text": "(2 mL) is passed through the phase separator. The combined"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    171,
+                    1370,
+                    1482,
+                    1410
+                ],
+                "score": 0.986,
+                "text": "organic layers are concentrated in vacuo to give the crude product. The crude material is purified"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    170,
+                    1424,
+                    984,
+                    1472
+                ],
+                "score": 0.987,
+                "text": "by preparative HPLC to afford Example 11 (6.0 mg, 5.9%)."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    169,
+                    1481,
+                    276,
+                    1531
+                ],
+                "score": 0.998,
+                "text": "[0297]"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    373,
+                    1483,
+                    1483,
+                    1527
+                ],
+                "score": 0.978,
+                "text": "The following examples are prepared in similar fashion from the appropriate"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    170,
+                    1539,
+                    1041,
+                    1583
+                ],
+                "score": 0.988,
+                "text": "aniline and sulphonyl chloride: Examples 17, 195, and 207-209."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    373,
+                    1597,
+                    1050,
+                    1644
+                ],
+                "score": 0.997,
+                "text": "Synthetic Example G: Synthesis of Example 23"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    169,
+                    1859,
+                    275,
+                    1909
+                ],
+                "score": 0.999,
+                "text": "[0299]"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    369,
+                    1854,
+                    1485,
+                    1911
+                ],
+                "score": 0.981,
+                "text": "R-12 (5.00 g, 20.6 mmol), riethylamine (8.6 mL, 61.8 mmol) and R-13 (2.29 g,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    172,
+                    1921,
+                    1482,
+                    1963
+                ],
+                "score": 0.987,
+                "text": "20.6 mmol) are suspended in DMF (1O mL). The reaction mixture is sealed under a nitrogen"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    172,
+                    1978,
+                    542,
+                    2019
+                ],
+                "score": 0.985,
+                "text": "atmosphere and stirred at"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    636,
+                    1978,
+                    1482,
+                    2019
+                ],
+                "score": 0.981,
+                "text": "for 1 hour then cooled to room temperature and partitioned"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    795,
+                    2186,
+                    838,
+                    2226
+                ],
+                "score": 1.0,
+                "text": "98"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1653,
+            "height": 2338
+        }
+    }
+]

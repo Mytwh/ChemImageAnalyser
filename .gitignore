@@ -1,0 +1,31 @@
+# 模型权重文件
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.ckpt
+*.bin
+*.onnx
+*.pb
+*.caffemodel
+*.npy
+*.npz
+
+# 数据集目录
+data/
+datasets/
+weights/
+models/
+checkpoints/
+
+# 针对 MolScribe 和 RxnScribe 内部的大文件
+MolScribe/**/*.pth
+MolScribe/**/*.pt
+MolScribe/**/*.bin
+RxnScribe/**/*.pth
+RxnScribe/**/*.pt
+RxnScribe/**/*.bin
+
+# Python 缓存
+__pycache__/
+*.pyc

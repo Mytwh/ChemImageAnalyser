@@ -1,0 +1,275 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.143,
+                0.047,
+                0.274,
+                0.06
+            ],
+            "angle": 0,
+            "content": "WO 2020/252229"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.707,
+                0.047,
+                0.863,
+                0.06
+            ],
+            "angle": 0,
+            "content": "PCT/US2020/037378"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.103,
+                0.115,
+                0.633,
+                0.135
+            ],
+            "angle": 0,
+            "content": "[0293] Synthetic Example E: Synthesis of Example 71",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.226,
+                0.14,
+                0.391,
+                0.193
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.402,
+                0.149,
+                0.546,
+                0.194
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.27,
+                0.214,
+                0.303,
+                0.228
+            ],
+            "angle": 0,
+            "content": "R-9"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.567,
+                0.139,
+                0.774,
+                0.209
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.611,
+                0.213,
+                0.658,
+                0.227
+            ],
+            "angle": 0,
+            "content": "Ex 71"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.101,
+                0.237,
+                0.897,
+                0.353
+            ],
+            "angle": 0,
+            "content": "[0294] Aniline (22 mg, 0.241 mmol) and pyridine (0.097 mL, 1.20 mmol) are suspended in \\(\\mathrm{CH}_2\\mathrm{Cl}_2\\) (5 mL) and cooled to \\(0^{\\circ}\\mathrm{C}\\) and stirred for 5 minutes. To the reaction mixture R-9 (50 mg, 0.241 mmol) is added and the reaction mixture is stirred for 10 minutes. The reaction mixture is concentrated in vacuo. The crude product is purified by preparative HPLC to afford Example 71 (22 mg, 35%).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.103,
+                0.36,
+                0.63,
+                0.379
+            ],
+            "angle": 0,
+            "content": "[0295] Synthetic Example F: Synthesis of Example 11",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.147,
+                0.386,
+                0.317,
+                0.443
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.185,
+                0.463,
+                0.226,
+                0.477
+            ],
+            "angle": 0,
+            "content": "R-10"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.338,
+                0.385,
+                0.447,
+                0.442
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.385,
+                0.466,
+                0.423,
+                0.479
+            ],
+            "angle": 0,
+            "content": "R-11"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.482,
+                0.388,
+                0.625,
+                0.439
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.655,
+                0.383,
+                0.853,
+                0.454
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.691,
+                0.458,
+                0.738,
+                0.472
+            ],
+            "angle": 0,
+            "content": "Ex 11"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.101,
+                0.486,
+                0.898,
+                0.627
+            ],
+            "angle": 0,
+            "content": "[0296] R-10 (50 mg, 0.359 mmol), R-11 (69 uL, 0.539 mmol) are dissolved in \\(\\mathrm{CH_2Cl_2}\\) (2 mL). Triethylamine (0.15 mL, 1.08 mmol) is added and the reaction mixture is stirred at room temperature for 17 hrs. The mixture is washed with water (2 mL) then passed through a Telos phase separator. Additional \\(\\mathrm{CH_2Cl_2}\\) (2 mL) is passed through the phase separator. The combined organic layers are concentrated in vacuo to give the crude product. The crude material is purified by preparative HPLC to afford Example 11 (6.0 mg, 5.9%).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.102,
+                0.634,
+                0.896,
+                0.678
+            ],
+            "angle": 0,
+            "content": "[0297] The following examples are prepared in similar fashion from the appropriate aniline and sulphonyl chloride: Examples 17, 195, and 207-209.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.103,
+                0.684,
+                0.636,
+                0.703
+            ],
+            "angle": 0,
+            "content": "[0298] Synthetic Example G: Synthesis of Example 23",
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.101,
+                0.486,
+                0.898,
+                0.703
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.105,
+                0.707,
+                0.896,
+                0.787
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.102,
+                0.795,
+                0.896,
+                0.864
+            ],
+            "angle": 0,
+            "content": "[0299] R-12 (5.00 g, 20.6 mmol), triethylamine (8.6 mL, 61.8 mmol) and R-13 (2.29 g, 20.6 mmol) are suspended in DMF (10 mL). The reaction mixture is sealed under a nitrogen atmosphere and stirred at 80 °C for 1 hour then cooled to room temperature and partitioned",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.483,
+                0.936,
+                0.504,
+                0.948
+            ],
+            "angle": 0,
+            "content": "98"
+        }
+    ]
+]
