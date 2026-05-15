@@ -78,7 +78,7 @@ class RxnScribe:
         return model
 
     def get_molscribe(self):
-        ckpt_path = "/public/home/whtian/xitong/ckpts/swin_base_char_aux_1m680k.pth"
+        ckpt_path = "/public/home/whtian/ChemImageAnalyser/ckpts/swin_base_char_aux_1m680k.pth"
         molscribe = MolScribe(ckpt_path, device=self.device)
         return molscribe
 

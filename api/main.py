@@ -38,8 +38,8 @@ app.add_middleware(
 
 # --- 路径与环境配置 ---
 BASE_DIR = "/public/home/whtian/ChemImageAnalyser"
-MOL_CKPT = os.path.join(BASE_DIR, "/public/home/whtian/ChemImageAnalyser/ckpts/swin_base_char_aux_1m680k.pth")
-RXN_CKPT = os.path.join(BASE_DIR, "/public/home/whtian/ChemImageAnalyser/ckpts/pix2seq_reaction_full.ckpt")
+MOL_CKPT = os.path.join(BASE_DIR, "ckpts", "swin_base_char_aux_1m680k.pth")
+RXN_CKPT = os.path.join(BASE_DIR, "ckpts", "pix2seq_reaction_full.ckpt")
 UPLOAD_DIR = os.path.join(BASE_DIR, "api/temp_uploads")
 PDF_TEMP_DIR = os.path.join(BASE_DIR, "api/temp_pdf")  # 新增：PDF 临时目录
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -63,7 +63,9 @@ async def load_models():
     try:
         # 1. 加载 MolScribe
         mol_model = MolScribe(MOL_CKPT, device=DEVICE)
-        print("MolScribe 加载成功！")
+        print("MolScribe 加载成功！aaaaaaa")
+        print(RXN_CKPT)
+        print(MOL_CKPT)
         
         # 2. 加载 RxnScribe (复用已加载的 mol_model)
         rxn_model = RxnScribe(RXN_CKPT, device=DEVICE)

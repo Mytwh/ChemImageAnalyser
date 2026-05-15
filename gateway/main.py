@@ -21,7 +21,8 @@ BACKEND_URL = "http://192.168.10.86:9070"
 
 # 千问 (Qwen) API 配置 - 你需要在阿里云百炼平台申请 API Key
 # 申请地址: https://dashscope.aliyun.com/
-QWEN_API_KEY = "sk-ea331d69caf444319747158304810bff"  # 替换为你的灵积 API Key
+QWEN_API_KEY = ""  # 替换为你的灵积 API Key
+# sk-ea331d69caf444319747158304810bff
 QWEN_API_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
 QWEN_MODEL = "qwen-vl-plus"  # 多模态模型，支持图片理解
 
